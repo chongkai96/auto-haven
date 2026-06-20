@@ -254,6 +254,18 @@ async function main() {
     car.lastSeen = today;
   }
 
+  // Only write when the actual inventory changed. Compare ignoring the volatile
+  // `lastSeen` field (and the top-level crawl timestamp), so an unchanged listing
+  // leaves the files byte-identical and produces no commit.
+  const signature = (list) =>
+    JSON.stringify(
+      [...list].sort((a, b) => a.id - b.id).map(({ lastSeen, ...rest }) => rest),
+    );
+  if (signature(cars) === signature(prev.cars || [])) {
+    console.log(`\nNo inventory changes — ${cars.length} listings unchanged; nothing written.`);
+    return;
+  }
+
   console.log("Downloading images…");
   for (const car of cars) await downloadImage(car);
 
