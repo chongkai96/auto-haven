@@ -12,7 +12,7 @@ export default function CarCard({ car }: { car: Car }) {
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-background">
         <Image
-          src={car.image}
+          src={car.images?.[0] ?? car.image}
           alt={car.title}
           fill
           sizes="(max-width: 768px) 100vw, 33vw"
