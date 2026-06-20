@@ -23,6 +23,7 @@ export type Car = {
   status: string | null;
   sourceLink: string | null;
   image: string;
+  images?: string[];
   imageSource: string | null;
   dealer: string;
   firstSeen?: string;

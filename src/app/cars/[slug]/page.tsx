@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import Link from "next/link";
 import { getAllCars, getCar } from "@/lib/cars";
+import Gallery from "@/components/Gallery";
 import { formatPrice, formatMileage } from "@/lib/format";
 import { site } from "@/lib/site";
 
@@ -59,21 +59,11 @@ export default async function CarDetail({
       <div className="mt-4 grid gap-8 lg:grid-cols-[1.4fr_1fr]">
         {/* Gallery */}
         <div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-border bg-card">
-            <Image
-              src={car.image}
-              alt={car.title}
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 60vw"
-              className="object-cover"
-            />
-            {car.status === "s" && (
-              <span className="absolute right-4 top-4 rounded-full bg-red-600 px-3 py-1 text-sm font-semibold text-white">
-                Sold
-              </span>
-            )}
-          </div>
+          <Gallery
+            images={car.images?.length ? car.images : [car.image]}
+            alt={car.title}
+            sold={car.status === "s"}
+          />
 
           {car.description && (
             <div className="mt-6 rounded-2xl border border-border bg-card p-6">

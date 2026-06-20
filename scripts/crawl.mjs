@@ -61,11 +61,10 @@ async function fetchPage(page) {
 
 /**
  * Reconstruct the Next.js RSC flight payload by concatenating every
- * `self.__next_f.push([1, "<chunk>"])` string, then extract & JSON-parse the
- * `listing_data.data` array via brace/bracket matching.
- * @returns {{ records: any[], meta: any }}
+ * `self.__next_f.push([1, "<chunk>"])` string. The result is normal
+ * (single-level-escaped) JSON-ish text we can parse/scan.
  */
-function extractListings(html) {
+function reconstructFlight(html) {
   const re = /self\.__next_f\.push\((\[[\s\S]*?\])\)/g;
   let m;
   let flight = "";
@@ -77,7 +76,15 @@ function extractListings(html) {
       /* not a string chunk; skip */
     }
   }
+  return flight;
+}
 
+/**
+ * Extract & JSON-parse the `listing_data.data` array from a dealer listing page.
+ * @returns {{ records: any[], meta: any }}
+ */
+function extractListings(html) {
+  const flight = reconstructFlight(html);
   const key = flight.indexOf('"listing_data":');
   if (key === -1) return { records: [], meta: null };
 
@@ -172,6 +179,59 @@ async function downloadImage(car) {
   }
 }
 
+const GALLERY_MAX = 20; // cap photos per car
+const DETAIL_DELAY_MS = 2500; // polite gap between detail-page fetches
+
+/** Pull the ordered full-size gallery image URLs for a car from its detail-page flight. */
+function extractGallery(flight, id) {
+  const re =
+    /"url":"(https:\/\/i\.i-sgcm\.com\/cars_used\/\d+\/[^"]+?\.jpg)","type":"image","display_order":(\d+)/g;
+  const seen = new Set();
+  const items = [];
+  let m;
+  while ((m = re.exec(flight))) {
+    if (m[1].includes(`/${id}_`) && !seen.has(m[1])) {
+      seen.add(m[1]);
+      items.push({ url: m[1], order: Number(m[2]) });
+    }
+  }
+  return items
+    .sort((a, b) => a.order - b.order)
+    .slice(0, GALLERY_MAX)
+    .map((it) => it.url);
+}
+
+/**
+ * Fetch a car's detail page, download every gallery photo into
+ * public/cars/<id>/<n>.jpg, and return the local paths (or null on failure).
+ */
+async function fetchDetailGallery(car) {
+  if (!car.sourceLink) return null;
+  try {
+    const res = await fetch(car.sourceLink, { headers: BROWSER_HEADERS });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const urls = extractGallery(reconstructFlight(await res.text()), car.id);
+    if (urls.length === 0) return null;
+
+    const dir = path.join(IMG_DIR, String(car.id));
+    await mkdir(dir, { recursive: true });
+    const paths = [];
+    for (let i = 0; i < urls.length; i++) {
+      const dest = path.join(dir, `${i + 1}.jpg`);
+      if (!existsSync(dest)) {
+        const r = await fetch(urls[i], { headers: { "User-Agent": UA } });
+        if (!r.ok) continue;
+        await writeFile(dest, Buffer.from(await r.arrayBuffer()));
+      }
+      paths.push(`/cars/${car.id}/${i + 1}.jpg`);
+    }
+    return paths.length ? paths : null;
+  } catch (e) {
+    console.warn(`  ! gallery ${car.id} failed: ${e.message}`);
+    return null;
+  }
+}
+
 async function readJson(file, fallback) {
   try {
     return JSON.parse(await readFile(file, "utf8"));
@@ -254,6 +314,25 @@ async function main() {
     car.lastSeen = today;
   }
 
+  console.log("Downloading thumbnails…");
+  for (const car of cars) await downloadImage(car);
+
+  // Resolve each car's detail-page photo gallery: reuse what we already have,
+  // otherwise fetch the detail page and download the full set (new cars only).
+  console.log("Resolving galleries…");
+  for (const car of cars) {
+    const dir = path.join(IMG_DIR, String(car.id));
+    const prevImages = prevById.get(car.id)?.images;
+    if (existsSync(dir) && Array.isArray(prevImages) && prevImages.length) {
+      car.images = prevImages;
+    } else {
+      const gallery = await fetchDetailGallery(car);
+      car.images = gallery && gallery.length ? gallery : [car.image];
+      if (gallery) console.log(`  ↓ ${car.id}: ${gallery.length} photos`);
+      await sleep(DETAIL_DELAY_MS);
+    }
+  }
+
   // Only write when the actual inventory changed. Compare ignoring the volatile
   // `lastSeen` field (and the top-level crawl timestamp), so an unchanged listing
   // leaves the files byte-identical and produces no commit.
@@ -265,9 +344,6 @@ async function main() {
     console.log(`\nNo inventory changes — ${cars.length} listings unchanged; nothing written.`);
     return;
   }
-
-  console.log("Downloading images…");
-  for (const car of cars) await downloadImage(car);
 
   const snapshot = {
     dealer: cars[0]?.dealer ?? "Autohaven Pte Ltd",

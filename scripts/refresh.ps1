@@ -1,9 +1,9 @@
-# Auto Haven — daily local inventory refresh.
-# Runs the crawler, then commits & pushes any changes (which triggers the Vercel
-# redeploy). Runs locally because sgcarmart blocks cloud/datacenter IPs, so this
-# must run from an allowed (residential) connection.
+# Auto Haven - daily local inventory refresh.
+# Runs the crawler, then commits and pushes any changes (which triggers the
+# Vercel redeploy). Runs locally because sgcarmart blocks cloud/datacenter IPs,
+# so this must run from an allowed (residential) connection.
 #
-# Scheduled via Windows Task Scheduler — see scripts\register-task.ps1 / README.
+# Scheduled via Windows Task Scheduler - see README.
 
 $ErrorActionPreference = "Stop"
 $repo = Split-Path $PSScriptRoot -Parent
@@ -12,7 +12,7 @@ Set-Location $repo
 Write-Host "[$(Get-Date -Format 'yyyy-MM-dd HH:mm')] Crawling inventory..."
 node scripts/crawl.mjs
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "Crawl failed (exit $LASTEXITCODE) — leaving existing data untouched."
+    Write-Host "Crawl failed (exit $LASTEXITCODE); leaving existing data untouched."
     exit 1
 }
 

@@ -2,7 +2,7 @@
   "dealer": "Autohaven Pte Ltd",
   "dealerId": "3647",
   "source": "https://www.sgcarmart.com/used-cars/listing?dl=3647",
-  "crawledAt": "2026-06-20T05:45:06.285Z",
+  "crawledAt": "2026-06-20T06:08:36.251Z",
   "count": 21,
   "cars": [
     {
@@ -31,7 +31,17 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1504839_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1504839/1.jpg",
+        "/cars/1504839/2.jpg",
+        "/cars/1504839/3.jpg",
+        "/cars/1504839/4.jpg",
+        "/cars/1504839/5.jpg",
+        "/cars/1504839/6.jpg",
+        "/cars/1504839/7.jpg",
+        "/cars/1504839/8.jpg"
+      ]
     },
     {
       "id": 1486654,
@@ -59,7 +69,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202603/1486654_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1486654/1.jpg",
+        "/cars/1486654/2.jpg",
+        "/cars/1486654/3.jpg",
+        "/cars/1486654/4.jpg",
+        "/cars/1486654/5.jpg",
+        "/cars/1486654/6.jpg",
+        "/cars/1486654/7.jpg",
+        "/cars/1486654/8.jpg",
+        "/cars/1486654/9.jpg"
+      ]
     },
     {
       "id": 1483718,
@@ -87,7 +108,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202603/1483718_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1483718/1.jpg",
+        "/cars/1483718/2.jpg",
+        "/cars/1483718/3.jpg",
+        "/cars/1483718/4.jpg",
+        "/cars/1483718/5.jpg",
+        "/cars/1483718/6.jpg",
+        "/cars/1483718/7.jpg",
+        "/cars/1483718/8.jpg",
+        "/cars/1483718/9.jpg"
+      ]
     },
     {
       "id": 1505851,
@@ -115,7 +147,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1505851_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1505851/1.jpg",
+        "/cars/1505851/2.jpg",
+        "/cars/1505851/3.jpg",
+        "/cars/1505851/4.jpg",
+        "/cars/1505851/5.jpg",
+        "/cars/1505851/6.jpg",
+        "/cars/1505851/7.jpg",
+        "/cars/1505851/8.jpg",
+        "/cars/1505851/9.jpg"
+      ]
     },
     {
       "id": 1506705,
@@ -143,7 +186,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1506705_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1506705/1.jpg",
+        "/cars/1506705/2.jpg",
+        "/cars/1506705/3.jpg",
+        "/cars/1506705/4.jpg",
+        "/cars/1506705/5.jpg",
+        "/cars/1506705/6.jpg",
+        "/cars/1506705/7.jpg",
+        "/cars/1506705/8.jpg",
+        "/cars/1506705/9.jpg"
+      ]
     },
     {
       "id": 1461255,
@@ -171,7 +225,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202512/1461255_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1461255/1.jpg",
+        "/cars/1461255/2.jpg",
+        "/cars/1461255/3.jpg",
+        "/cars/1461255/4.jpg",
+        "/cars/1461255/5.jpg",
+        "/cars/1461255/6.jpg",
+        "/cars/1461255/7.jpg",
+        "/cars/1461255/8.jpg",
+        "/cars/1461255/9.jpg"
+      ]
     },
     {
       "id": 1508372,
@@ -199,7 +264,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202606/1508372_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1508372/1.jpg",
+        "/cars/1508372/2.jpg",
+        "/cars/1508372/3.jpg",
+        "/cars/1508372/4.jpg",
+        "/cars/1508372/5.jpg",
+        "/cars/1508372/6.jpg",
+        "/cars/1508372/7.jpg",
+        "/cars/1508372/8.jpg",
+        "/cars/1508372/9.jpg"
+      ]
     },
     {
       "id": 1497480,
@@ -227,7 +303,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1497480_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1497480/1.jpg",
+        "/cars/1497480/2.jpg",
+        "/cars/1497480/3.jpg",
+        "/cars/1497480/4.jpg",
+        "/cars/1497480/5.jpg",
+        "/cars/1497480/6.jpg",
+        "/cars/1497480/7.jpg",
+        "/cars/1497480/8.jpg",
+        "/cars/1497480/9.jpg"
+      ]
     },
     {
       "id": 1502339,
@@ -255,7 +342,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1502339_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1502339/1.jpg",
+        "/cars/1502339/2.jpg",
+        "/cars/1502339/3.jpg",
+        "/cars/1502339/4.jpg",
+        "/cars/1502339/5.jpg",
+        "/cars/1502339/6.jpg",
+        "/cars/1502339/7.jpg",
+        "/cars/1502339/8.jpg",
+        "/cars/1502339/9.jpg"
+      ]
     },
     {
       "id": 1485035,
@@ -283,7 +381,15 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202603/1485035_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1485035/1.jpg",
+        "/cars/1485035/2.jpg",
+        "/cars/1485035/3.jpg",
+        "/cars/1485035/4.jpg",
+        "/cars/1485035/5.jpg",
+        "/cars/1485035/6.jpg"
+      ]
     },
     {
       "id": 1510170,
@@ -311,7 +417,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202606/1510170_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1510170/1.jpg",
+        "/cars/1510170/2.jpg",
+        "/cars/1510170/3.jpg",
+        "/cars/1510170/4.jpg",
+        "/cars/1510170/5.jpg",
+        "/cars/1510170/6.jpg",
+        "/cars/1510170/7.jpg",
+        "/cars/1510170/8.jpg",
+        "/cars/1510170/9.jpg"
+      ]
     },
     {
       "id": 1508238,
@@ -339,7 +456,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202606/1508238_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1508238/1.jpg",
+        "/cars/1508238/2.jpg",
+        "/cars/1508238/3.jpg",
+        "/cars/1508238/4.jpg",
+        "/cars/1508238/5.jpg",
+        "/cars/1508238/6.jpg",
+        "/cars/1508238/7.jpg",
+        "/cars/1508238/8.jpg",
+        "/cars/1508238/9.jpg"
+      ]
     },
     {
       "id": 1494737,
@@ -367,7 +495,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202604/1494737_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1494737/1.jpg",
+        "/cars/1494737/2.jpg",
+        "/cars/1494737/3.jpg",
+        "/cars/1494737/4.jpg",
+        "/cars/1494737/5.jpg",
+        "/cars/1494737/6.jpg",
+        "/cars/1494737/7.jpg",
+        "/cars/1494737/8.jpg",
+        "/cars/1494737/9.jpg"
+      ]
     },
     {
       "id": 1500751,
@@ -395,7 +534,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1500751_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1500751/1.jpg",
+        "/cars/1500751/2.jpg",
+        "/cars/1500751/3.jpg",
+        "/cars/1500751/4.jpg",
+        "/cars/1500751/5.jpg",
+        "/cars/1500751/6.jpg",
+        "/cars/1500751/7.jpg",
+        "/cars/1500751/8.jpg",
+        "/cars/1500751/9.jpg"
+      ]
     },
     {
       "id": 1510316,
@@ -423,7 +573,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202606/1510316_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1510316/1.jpg",
+        "/cars/1510316/2.jpg",
+        "/cars/1510316/3.jpg",
+        "/cars/1510316/4.jpg",
+        "/cars/1510316/5.jpg",
+        "/cars/1510316/6.jpg",
+        "/cars/1510316/7.jpg",
+        "/cars/1510316/8.jpg",
+        "/cars/1510316/9.jpg"
+      ]
     },
     {
       "id": 1508059,
@@ -451,7 +612,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202606/1508059_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1508059/1.jpg",
+        "/cars/1508059/2.jpg",
+        "/cars/1508059/3.jpg",
+        "/cars/1508059/4.jpg",
+        "/cars/1508059/5.jpg",
+        "/cars/1508059/6.jpg",
+        "/cars/1508059/7.jpg",
+        "/cars/1508059/8.jpg",
+        "/cars/1508059/9.jpg"
+      ]
     },
     {
       "id": 1506643,
@@ -479,7 +651,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1506643_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1506643/1.jpg",
+        "/cars/1506643/2.jpg",
+        "/cars/1506643/3.jpg",
+        "/cars/1506643/4.jpg",
+        "/cars/1506643/5.jpg",
+        "/cars/1506643/6.jpg",
+        "/cars/1506643/7.jpg",
+        "/cars/1506643/8.jpg",
+        "/cars/1506643/9.jpg"
+      ]
     },
     {
       "id": 1509067,
@@ -507,7 +690,16 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202606/1509067_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1509067/1.jpg",
+        "/cars/1509067/2.jpg",
+        "/cars/1509067/3.jpg",
+        "/cars/1509067/4.jpg",
+        "/cars/1509067/5.jpg",
+        "/cars/1509067/6.jpg",
+        "/cars/1509067/7.jpg"
+      ]
     },
     {
       "id": 1485851,
@@ -535,7 +727,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202603/1485851_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1485851/1.jpg",
+        "/cars/1485851/2.jpg",
+        "/cars/1485851/3.jpg",
+        "/cars/1485851/4.jpg",
+        "/cars/1485851/5.jpg",
+        "/cars/1485851/6.jpg",
+        "/cars/1485851/7.jpg",
+        "/cars/1485851/8.jpg",
+        "/cars/1485851/9.jpg"
+      ]
     },
     {
       "id": 1492547,
@@ -563,7 +766,18 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202604/1492547_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1492547/1.jpg",
+        "/cars/1492547/2.jpg",
+        "/cars/1492547/3.jpg",
+        "/cars/1492547/4.jpg",
+        "/cars/1492547/5.jpg",
+        "/cars/1492547/6.jpg",
+        "/cars/1492547/7.jpg",
+        "/cars/1492547/8.jpg",
+        "/cars/1492547/9.jpg"
+      ]
     },
     {
       "id": 1506646,
@@ -591,7 +805,17 @@
       "imageSource": "https://i.i-sgcm.com/cars_used/202605/1506646_1.jpg",
       "dealer": "Autohaven Pte Ltd",
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-20"
+      "lastSeen": "2026-06-20",
+      "images": [
+        "/cars/1506646/1.jpg",
+        "/cars/1506646/2.jpg",
+        "/cars/1506646/3.jpg",
+        "/cars/1506646/4.jpg",
+        "/cars/1506646/5.jpg",
+        "/cars/1506646/6.jpg",
+        "/cars/1506646/7.jpg",
+        "/cars/1506646/8.jpg"
+      ]
     }
   ]
 }
