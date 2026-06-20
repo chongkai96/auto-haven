@@ -207,6 +207,21 @@ async function main() {
   // Diff against the previous snapshot for the history log.
   const prev = await readJson(path.join(DATA_DIR, "listings.json"), { cars: [] });
   const prevById = new Map((prev.cars || []).map((c) => [c.id, c]));
+
+  // Safety guard: never overwrite good data with an empty or suspicious result
+  // (e.g. if sgcarmart changes its page format or blocks the request). Fail loudly
+  // instead, so the existing listings.json is preserved.
+  const prevCount = prev.cars?.length ?? 0;
+  if (cars.length === 0) {
+    throw new Error("Crawl returned 0 listings — aborting without overwriting existing data.");
+  }
+  if (prevCount >= 5 && cars.length < prevCount / 2) {
+    throw new Error(
+      `Crawl returned only ${cars.length} listings vs ${prevCount} previously — ` +
+        "aborting as a likely source/parse error.",
+    );
+  }
+
   const today = new Date().toISOString().slice(0, 10);
   const history = await readJson(path.join(DATA_DIR, "history.json"), []);
   const events = [];

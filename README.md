@@ -39,14 +39,25 @@ The crawler (`scripts/crawl.mjs`):
 
 Change the dealer via env var if needed: `AUTOHAVEN_DEALER_ID=3647 npm run crawl`.
 
-## Daily automation
+## Daily automation (runs locally)
 
-`.github/workflows/crawl.yml` runs the crawler every day at 09:00 SGT, then
-commits any changed data/images back to the repo (which redeploys the site).
-You can also trigger it manually from the **Actions** tab. No secrets required.
+sgcarmart blocks cloud/datacenter IPs (GitHub Actions gets HTTP 403), so the
+daily refresh runs **on a local machine** with an allowed connection.
 
-> Prefer running it locally instead? On Windows, schedule
-> `npm run crawl` with Task Scheduler in this folder.
+`scripts/refresh.ps1` runs the crawler, then commits & pushes any changes (which
+triggers the Vercel redeploy). It only commits if the crawl succeeds, and the
+crawler itself aborts rather than overwrite good data if it ever returns an
+empty/suspicious result.
+
+Register it as a daily Windows Scheduled Task (09:00):
+
+```powershell
+schtasks /Create /TN "AutoHaven Daily Crawl" /SC DAILY /ST 09:00 /F `
+  /TR "powershell -NoProfile -ExecutionPolicy Bypass -File \"<repo>\scripts\refresh.ps1\""
+```
+
+Run it manually any time with `powershell -File scripts/refresh.ps1`, or just
+`npm run crawl` to refresh data without committing.
 
 ## Project structure
 
