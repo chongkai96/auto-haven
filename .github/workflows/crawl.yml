@@ -6,7 +6,7 @@ on:
   schedule:
     # 01:00 UTC daily = 09:00 Singapore time
     - cron: "0 1 * * *"
-  workflow_dispatch: {} # allow manual runs from the Actions tab
+  workflow_dispatch: # allow manual runs from the Actions tab
 
 permissions:
   contents: write
