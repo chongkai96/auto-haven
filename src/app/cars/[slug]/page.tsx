@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllCars, getCar } from "@/lib/cars";
 import Gallery from "@/components/Gallery";
+import ContactDialog from "@/components/ContactDialog";
 import { formatPrice, formatMileage } from "@/lib/format";
 import { site } from "@/lib/site";
 
@@ -45,10 +46,6 @@ export default async function CarDetail({
     { label: "Scheme", value: car.vehicleScheme },
     { label: "Range (EV)", value: car.driveRange },
   ];
-
-  const waText = encodeURIComponent(
-    `Hi ${site.name}, I'm interested in the ${car.title} (${formatPrice(car.price)}). Is it still available?`,
-  );
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
@@ -109,20 +106,7 @@ export default async function CarDetail({
             </dl>
 
             <div className="mt-6 space-y-2">
-              <a
-                href={`https://wa.me/${site.contact.whatsapp}?text=${waText}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block rounded-lg bg-accent px-5 py-3 text-center font-semibold text-white hover:bg-accent-strong"
-              >
-                WhatsApp us about this car
-              </a>
-              <a
-                href={`tel:${site.contact.phone.replace(/\s/g, "")}`}
-                className="block rounded-lg border border-border px-5 py-3 text-center font-semibold text-ink hover:bg-background"
-              >
-                Call {site.contact.phone}
-              </a>
+              <ContactDialog carTitle={car.title} price={formatPrice(car.price)} />
               {car.sourceLink && (
                 <a
                   href={car.sourceLink}

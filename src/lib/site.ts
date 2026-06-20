@@ -23,8 +23,8 @@ export const site = {
     address: "1 Bukit Batok Crescent #05-22, WCEGA Plaza, Singapore 658064",
     team: [
       { name: "Ethan", phone: "8890 2010", whatsapp: "6588902010" },
+      { name: "Steve", phone: "8790 0193", whatsapp: "6587900193" },
       { name: "Allen", phone: "8829 9383", whatsapp: "6588299383" },
-      { name: "Ben", phone: "8790 0193", whatsapp: "6587900193" },
     ],
   },
 
