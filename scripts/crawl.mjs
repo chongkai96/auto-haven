@@ -35,9 +35,26 @@ const POLITE_DELAY_MS = 4000; // be gentle between page fetches
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /** Fetch one listing page's raw HTML. */
+// Full browser-like header set — some WAFs reject requests missing these.
+const BROWSER_HEADERS = {
+  "User-Agent": UA,
+  Accept:
+    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+  "Accept-Language": "en-SG,en;q=0.9",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Upgrade-Insecure-Requests": "1",
+  "sec-ch-ua": '"Chromium";v="120", "Not A(Brand";v="24", "Google Chrome";v="120"',
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": '"Windows"',
+  "Sec-Fetch-Dest": "document",
+  "Sec-Fetch-Mode": "navigate",
+  "Sec-Fetch-Site": "none",
+  "Sec-Fetch-User": "?1",
+};
+
 async function fetchPage(page) {
   const url = `${BASE}?dl=${DEALER_ID}${page > 1 ? `&page=${page}` : ""}`;
-  const res = await fetch(url, { headers: { "User-Agent": UA, Accept: "text/html" } });
+  const res = await fetch(url, { headers: BROWSER_HEADERS });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return { html: await res.text(), url };
 }
