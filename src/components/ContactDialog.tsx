@@ -35,7 +35,7 @@ export default function ContactDialog({
         onClick={() => setOpen(true)}
         className="block w-full rounded-lg bg-accent px-5 py-3 text-center font-semibold text-white hover:bg-accent-strong"
       >
-        Contact us
+        Contact Us
       </button>
 
       {open && (
