@@ -145,5 +145,13 @@
     "id": 1504839,
     "title": "Toyota Blade 2.4A (COE till 02/2028)",
     "price": 18888
+  },
+  {
+    "date": "2026-06-20",
+    "type": "price_change",
+    "id": 1510316,
+    "title": "Toyota Prius Plus Hybrid 1.8A",
+    "from": 67800,
+    "to": 63800
   }
 ]
