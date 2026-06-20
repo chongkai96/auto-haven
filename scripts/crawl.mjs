@@ -14,7 +14,7 @@
  * Run:  node scripts/crawl.mjs        (or `npm run crawl`)
  */
 
-import { writeFile, readFile, mkdir } from "node:fs/promises";
+import { writeFile, readFile, mkdir, readdir, rm } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -240,6 +240,64 @@ async function readJson(file, fallback) {
   }
 }
 
+const GRACE_DAYS = 2; // keep a delisted car's photos this many days before deleting
+
+/**
+ * Delete image files/folders for cars that have been off the listing for
+ * >= GRACE_DAYS days. A grace window avoids nuking photos for a car that
+ * briefly disappears (or gets relisted). Pending removals are tracked in
+ * src/data/removed.json as { "<id>": "YYYY-MM-DD first missing" }.
+ */
+async function cleanupOrphans(currentIds, today) {
+  const pendingFile = path.join(DATA_DIR, "removed.json");
+  const pending = await readJson(pendingFile, {});
+  let changed = false;
+
+  let entries;
+  try {
+    entries = await readdir(IMG_DIR, { withFileTypes: true });
+  } catch {
+    return;
+  }
+  const onDiskIds = new Set();
+  for (const e of entries) {
+    const m = e.name.match(/^(\d+)(\.jpg)?$/);
+    if (m) onDiskIds.add(m[1]);
+  }
+
+  for (const id of onDiskIds) {
+    if (currentIds.has(Number(id))) {
+      if (pending[id]) {
+        delete pending[id]; // car is back / still listed
+        changed = true;
+      }
+      continue;
+    }
+    if (!pending[id]) {
+      pending[id] = today; // first time we've noticed it gone
+      changed = true;
+      console.log(`  • ${id} delisted — photos kept ${GRACE_DAYS} more days`);
+      continue;
+    }
+    const ageDays = Math.floor((Date.parse(today) - Date.parse(pending[id])) / 86_400_000);
+    if (ageDays >= GRACE_DAYS) {
+      await rm(path.join(IMG_DIR, `${id}.jpg`), { force: true });
+      await rm(path.join(IMG_DIR, id), { recursive: true, force: true });
+      delete pending[id];
+      changed = true;
+      console.log(`  ✗ removed photos for ${id} (gone ${ageDays} days)`);
+    }
+  }
+
+  if (changed) {
+    if (Object.keys(pending).length) {
+      await writeFile(pendingFile, JSON.stringify(pending, null, 2));
+    } else {
+      await rm(pendingFile, { force: true });
+    }
+  }
+}
+
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
   await mkdir(IMG_DIR, { recursive: true });
@@ -307,6 +365,9 @@ async function main() {
       events.push({ date: today, type: "sold", id: before.id, title: before.title, price: before.price });
     }
   }
+
+  // Delete photos for cars that have been delisted for GRACE_DAYS+ days.
+  await cleanupOrphans(currentIds, today);
 
   // Preserve first-seen dates across runs.
   for (const car of cars) {

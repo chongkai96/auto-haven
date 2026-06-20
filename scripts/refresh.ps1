@@ -16,7 +16,7 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
-git add src/data public/cars
+git add -A src/data public/cars
 git diff --cached --quiet
 if ($LASTEXITCODE -ne 0) {
     $date = Get-Date -Format "yyyy-MM-dd"
