@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Auto Haven
 
-## Getting Started
+A second-hand car–listing website for **Auto Haven** (Autohaven Pte Ltd), with a
+servicing/maintenance section for its workshop arm, **Revo Haven**.
 
-First, run the development server:
+Inventory is crawled daily from the dealer's own sgcarmart listing
+(`dl=3647`) — no manual data entry.
+
+## Tech stack
+
+- **Next.js 16** (App Router) + **React 19** + **TypeScript**
+- **Tailwind CSS v4**
+- Inventory stored as JSON in the repo (`src/data/listings.json`), images in `public/cars/`
+- Daily refresh via **GitHub Actions** cron
+
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Crawling inventory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run crawl        # fetch latest listings + images, write src/data/*.json
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The crawler (`scripts/crawl.mjs`):
 
-## Learn More
+1. Fetches every page of the dealer listing and extracts the listing data that
+   sgcarmart server-renders into the page (no headless browser needed).
+2. Normalizes each car into a lean shape (`src/lib/cars.ts` defines the type).
+3. Downloads each car's primary photo into `public/cars/<id>.jpg`.
+4. Writes:
+   - `src/data/listings.json` — current inventory snapshot the site renders.
+   - `src/data/history.json` — append-only log of **new**, **price change** and
+     **sold** events, with `firstSeen` / `lastSeen` dates per car.
 
-To learn more about Next.js, take a look at the following resources:
+Change the dealer via env var if needed: `AUTOHAVEN_DEALER_ID=3647 npm run crawl`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Daily automation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`.github/workflows/crawl.yml` runs the crawler every day at 09:00 SGT, then
+commits any changed data/images back to the repo (which redeploys the site).
+You can also trigger it manually from the **Actions** tab. No secrets required.
 
-## Deploy on Vercel
+> Prefer running it locally instead? On Windows, schedule
+> `npm run crawl` with Task Scheduler in this folder.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+scripts/crawl.mjs          # the daily crawler
+src/data/                  # listings.json + history.json (generated)
+src/lib/site.ts            # brand + contact config (edit placeholders here)
+src/lib/cars.ts            # Car type + data-access helpers
+src/components/            # Navbar, Footer, CarCard, ListingsBrowser
+src/app/                   # / , /cars , /cars/[slug] , /servicing , /about
+public/cars/               # downloaded car photos (generated)
+```
+
+## To do before launch
+
+- Replace contact placeholders (phone, WhatsApp, email, address) in
+  `src/lib/site.ts`.
+- Confirm branding/colors (theme variables live in `src/app/globals.css`).
