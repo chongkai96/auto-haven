@@ -6,9 +6,11 @@ import { site } from "@/lib/site";
 export default function ContactDialog({
   carTitle,
   price,
+  compact = false,
 }: {
   carTitle: string;
   price: string;
+  compact?: boolean;
 }) {
   const [open, setOpen] = useState(false);
 
@@ -33,7 +35,11 @@ export default function ContactDialog({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="block w-full rounded-lg bg-accent px-5 py-3 text-center font-semibold text-white hover:bg-accent-strong"
+        className={
+          compact
+            ? "rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-strong"
+            : "block w-full rounded-lg bg-accent px-5 py-3 text-center font-semibold text-white hover:bg-accent-strong"
+        }
       >
         Contact Us
       </button>

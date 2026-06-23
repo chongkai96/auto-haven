@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllCars, getCar } from "@/lib/cars";
+import { getAllCars, getCar, getSimilarCars } from "@/lib/cars";
 import Gallery from "@/components/Gallery";
 import ContactDialog from "@/components/ContactDialog";
+import CarCard from "@/components/CarCard";
 import { formatPrice, formatMileage } from "@/lib/format";
 import { site } from "@/lib/site";
 
@@ -47,8 +48,10 @@ export default async function CarDetail({
     { label: "Range (EV)", value: car.driveRange },
   ];
 
+  const similar = getSimilarCars(car, 4);
+
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10">
+    <div className="mx-auto max-w-6xl px-4 pt-10 pb-28 lg:pb-10">
       <Link href="/cars" className="text-sm font-medium text-accent-strong hover:underline">
         ← Back to all cars
       </Link>
@@ -130,6 +133,30 @@ export default async function CarDetail({
             </Link>
           </div>
         </aside>
+      </div>
+
+      {similar.length > 0 && (
+        <section className="mt-14">
+          <h2 className="text-xl font-extrabold text-ink sm:text-2xl">Similar cars</h2>
+          <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {similar.map((c) => (
+              <CarCard key={c.id} car={c} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Mobile sticky contact bar */}
+      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-card/95 px-4 py-3 backdrop-blur lg:hidden">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3">
+          <div className="min-w-0">
+            <div className="truncate text-xs text-muted">{car.title}</div>
+            <div className="text-lg font-extrabold text-ink">{formatPrice(car.price)}</div>
+          </div>
+          <div className="shrink-0">
+            <ContactDialog carTitle={car.title} price={formatPrice(car.price)} compact />
+          </div>
+        </div>
       </div>
     </div>
   );

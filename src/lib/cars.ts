@@ -69,3 +69,18 @@ export function getMakes(): string[] {
 export function getBodyTypes(): string[] {
   return [...new Set(inventory.cars.map((c) => c.bodyType).filter(Boolean) as string[])].sort();
 }
+
+/** Cars most like the given one: same body type / make first, then closest price. */
+export function getSimilarCars(car: Car, limit = 4): Car[] {
+  const score = (c: Car) => {
+    let s = 0;
+    if (c.bodyType && c.bodyType === car.bodyType) s += 3;
+    if (c.make && c.make === car.make) s += 2;
+    const priceGap = Math.abs((c.price ?? 0) - (car.price ?? 0));
+    return s * 10_000_000 - priceGap; // matches dominate, then nearest price
+  };
+  return inventory.cars
+    .filter((c) => c.id !== car.id)
+    .sort((a, b) => score(b) - score(a))
+    .slice(0, limit);
+}
