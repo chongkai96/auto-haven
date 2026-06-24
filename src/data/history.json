@@ -153,5 +153,12 @@
     "title": "Toyota Prius Plus Hybrid 1.8A",
     "from": 67800,
     "to": 63800
+  },
+  {
+    "date": "2026-06-24",
+    "type": "new",
+    "id": 1513068,
+    "title": "BMW 4 Series 420i Gran Coupe",
+    "price": 66800
   }
 ]
