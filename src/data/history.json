@@ -160,5 +160,12 @@
     "id": 1513068,
     "title": "BMW 4 Series 420i Gran Coupe",
     "price": 66800
+  },
+  {
+    "date": "2026-06-25",
+    "type": "sold",
+    "id": 1506705,
+    "title": "Ford Focus Titanium 1.0A GTDI 5DR",
+    "price": 33800
   }
 ]
