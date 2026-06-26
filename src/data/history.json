@@ -167,5 +167,12 @@
     "id": 1506705,
     "title": "Ford Focus Titanium 1.0A GTDI 5DR",
     "price": 33800
+  },
+  {
+    "date": "2026-06-26",
+    "type": "sold",
+    "id": 1497480,
+    "title": "Toyota Vios 1.5A E",
+    "price": 46800
   }
 ]
