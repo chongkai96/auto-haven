@@ -174,5 +174,35 @@
     "id": 1497480,
     "title": "Toyota Vios 1.5A E",
     "price": 46800
+  },
+  {
+    "date": "2026-06-27",
+    "type": "price_change",
+    "id": 1506643,
+    "title": "Mercedes-Benz E-Class E220d",
+    "from": 68800,
+    "to": 67500
+  },
+  {
+    "date": "2026-06-27",
+    "type": "new",
+    "id": 1514104,
+    "title": "Volkswagen Jetta 1.6A (COE till 09/2027)",
+    "price": 14800
+  },
+  {
+    "date": "2026-06-27",
+    "type": "price_change",
+    "id": 1502339,
+    "title": "Volkswagen Sharan 2.0A TSI Panoramic Roof",
+    "from": 48000,
+    "to": 46388
+  },
+  {
+    "date": "2026-06-27",
+    "type": "sold",
+    "id": 1508372,
+    "title": "Infiniti Q50 2.0A T",
+    "price": 40000
   }
 ]
