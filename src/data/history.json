@@ -211,5 +211,12 @@
     "id": 1514371,
     "title": "Mercedes-Benz B-Class B180 Style",
     "price": 43800
+  },
+  {
+    "date": "2026-06-30",
+    "type": "new",
+    "id": 1514775,
+    "title": "Nissan NV200 1.6A DX",
+    "price": 13800
   }
 ]
