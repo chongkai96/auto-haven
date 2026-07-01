@@ -218,5 +218,19 @@
     "id": 1514775,
     "title": "Nissan NV200 1.6A DX",
     "price": 13800
+  },
+  {
+    "date": "2026-07-01",
+    "type": "new",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "price": 107500
+  },
+  {
+    "date": "2026-07-01",
+    "type": "sold",
+    "id": 1504839,
+    "title": "Toyota Blade 2.4A (COE till 02/2028)",
+    "price": 18888
   }
 ]
