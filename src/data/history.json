@@ -327,5 +327,49 @@
     "title": "Toyota Rav4 2.4A 5DR (COE till 06/2028)",
     "from": 27800,
     "to": 25800
+  },
+  {
+    "date": "2026-07-03",
+    "type": "price_change",
+    "id": 1506643,
+    "title": "Mercedes-Benz E-Class E220d",
+    "from": 65500,
+    "to": 67800
+  },
+  {
+    "date": "2026-07-03",
+    "type": "price_change",
+    "id": 1514775,
+    "title": "Nissan NV200 1.6A DX",
+    "from": 13800,
+    "to": 11800
+  },
+  {
+    "date": "2026-07-03",
+    "type": "new",
+    "id": 1515933,
+    "title": "Toyota Blade 2.4A (COE till 02/2028)",
+    "price": 15800
+  },
+  {
+    "date": "2026-07-03",
+    "type": "new",
+    "id": 1515846,
+    "title": "Skoda Kodiaq 2.0A TSI Laurin & Klement",
+    "price": 80800
+  },
+  {
+    "date": "2026-07-03",
+    "type": "sold",
+    "id": 1514371,
+    "title": "Mercedes-Benz B-Class B180 Style",
+    "price": 43800
+  },
+  {
+    "date": "2026-07-03",
+    "type": "sold",
+    "id": 1509067,
+    "title": "BMW X1 sDrive18i",
+    "price": 76800
   }
 ]
