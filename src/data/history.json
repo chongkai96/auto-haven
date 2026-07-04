@@ -371,5 +371,21 @@
     "id": 1509067,
     "title": "BMW X1 sDrive18i",
     "price": 76800
+  },
+  {
+    "date": "2026-07-04",
+    "type": "price_change",
+    "id": 1515532,
+    "title": "Alfa Romeo Giulia 2.9A Quadrifoglio",
+    "from": 188000,
+    "to": 182800
+  },
+  {
+    "date": "2026-07-04",
+    "type": "price_change",
+    "id": 1514104,
+    "title": "Volkswagen Jetta 1.6A (COE till 09/2027)",
+    "from": 14800,
+    "to": 13800
   }
 ]
