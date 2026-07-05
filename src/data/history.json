@@ -387,5 +387,33 @@
     "title": "Volkswagen Jetta 1.6A (COE till 09/2027)",
     "from": 14800,
     "to": 13800
+  },
+  {
+    "date": "2026-07-05",
+    "type": "new",
+    "id": 1516621,
+    "title": "Volkswagen Golf 1.4A TSI Highline Sunroof (New 5-yr COE)",
+    "price": 76800
+  },
+  {
+    "date": "2026-07-05",
+    "type": "new",
+    "id": 1516330,
+    "title": "BMW 3 Series 320i Convertible (COE till 04/2028)",
+    "price": 21800
+  },
+  {
+    "date": "2026-07-05",
+    "type": "sold",
+    "id": 1494737,
+    "title": "Volkswagen Passat 2.0A TFSI Sunroof",
+    "price": 51800
+  },
+  {
+    "date": "2026-07-05",
+    "type": "sold",
+    "id": 1506643,
+    "title": "Mercedes-Benz E-Class E220d",
+    "price": 67800
   }
 ]
