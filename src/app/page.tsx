@@ -35,6 +35,30 @@ const HIGHLIGHT_ICONS = [
   </>,
 ];
 
+// Icons for the servicing teaser cards (same order as site.servicing.services:
+// routine servicing, preventive maintenance, major repair works, tyres/wheels).
+const SERVICE_ICONS = [
+  // Routine servicing — oil drop
+  <path key="i" d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z" />,
+  // Preventive maintenance — gauge / diagnostics
+  <>
+    <path d="M4 18a8 8 0 1 1 16 0" />
+    <path d="M12 14l3.5-3.5" />
+    <circle cx="12" cy="14" r="1.2" />
+  </>,
+  // Major repair works — wrench
+  <path
+    key="i"
+    d="M14.7 6.3a4 4 0 0 0-5.66 5.66l-6.34 6.34a2 2 0 0 0 2.83 2.83l6.34-6.34a4 4 0 0 0 5.66-5.66l-2.83 2.83-2.83-2.83 2.83-2.83z"
+  />,
+  // Tyres, wheels & alignment — wheel
+  <>
+    <circle cx="12" cy="12" r="9" />
+    <circle cx="12" cy="12" r="3" />
+    <path d="M12 3v3M12 18v3M3 12h3M18 12h3" />
+  </>,
+];
+
 export default function Home() {
   const inventory = getInventory();
   const featured = getLatestCars(6);
@@ -215,10 +239,24 @@ export default function Home() {
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            {site.servicing.services.map((s) => (
+            {site.servicing.services.map((s, i) => (
               <div key={s} className="rounded-xl border border-border bg-card p-5">
-                <span className="text-revo">✓</span>
-                <div className="mt-1 font-semibold text-ink">{s}</div>
+                <span className="grid h-10 w-10 place-items-center rounded-full bg-revo/10 text-revo">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    {SERVICE_ICONS[i]}
+                  </svg>
+                </span>
+                <div className="mt-3 font-semibold text-ink">{s}</div>
               </div>
             ))}
           </div>
