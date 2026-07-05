@@ -5,6 +5,7 @@ import { getAllCars, getCar, getSimilarCars } from "@/lib/cars";
 import Gallery from "@/components/Gallery";
 import ContactDialog from "@/components/ContactDialog";
 import CarCard from "@/components/CarCard";
+import JsonLd from "@/components/JsonLd";
 import { formatPrice, formatMileage } from "@/lib/format";
 import { site } from "@/lib/site";
 
@@ -20,9 +21,18 @@ export async function generateMetadata({
   const { slug } = await params;
   const car = getCar(slug);
   if (!car) return { title: "Car not found" };
+  const description = `${car.title} for sale at ${formatPrice(car.price)} — ${site.name}.`;
+  const image = car.images?.[0] ?? car.image;
   return {
     title: car.title,
-    description: `${car.title} for sale at ${formatPrice(car.price)} — ${site.name}.`,
+    description,
+    openGraph: {
+      type: "website",
+      title: `${car.title} — ${formatPrice(car.price)}`,
+      description,
+      url: `${site.url}/cars/${car.slug}`,
+      images: [image],
+    },
   };
 }
 
@@ -50,8 +60,34 @@ export default async function CarDetail({
 
   const similar = getSimilarCars(car, 4);
 
+  const vehicleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Car",
+    name: car.title,
+    ...(car.make ? { brand: { "@type": "Brand", name: car.make } } : {}),
+    ...(car.model ? { model: car.model } : {}),
+    ...(car.bodyType ? { bodyType: car.bodyType } : {}),
+    ...(car.transmission ? { vehicleTransmission: car.transmission } : {}),
+    ...(car.fuelType ? { fuelType: car.fuelType } : {}),
+    ...(car.mileage != null
+      ? { mileageFromOdometer: { "@type": "QuantitativeValue", value: car.mileage, unitCode: "KMT" } }
+      : {}),
+    image: `${site.url}${car.images?.[0] ?? car.image}`,
+    url: `${site.url}/cars/${car.slug}`,
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "SGD",
+      ...(car.price != null ? { price: car.price } : {}),
+      availability:
+        car.status === "s" ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
+      url: `${site.url}/cars/${car.slug}`,
+      seller: { "@type": "AutoDealer", name: site.legalName },
+    },
+  };
+
   return (
     <div className="mx-auto max-w-6xl px-4 pt-10 pb-28 lg:pb-10">
+      <JsonLd data={vehicleJsonLd} />
       <Link href="/cars" className="text-sm font-medium text-accent-strong hover:underline">
         ← Back to all cars
       </Link>

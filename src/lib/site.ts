@@ -7,6 +7,8 @@
 export const site = {
   name: "Auto Haven",
   legalName: "Autohaven Pte Ltd",
+  // Canonical site URL (update to the custom domain when you get one).
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://auto-haven-jade.vercel.app",
   logo: "/logo-autohaven.jpg",
   tagline: "Driven to serve you better.",
   category: "Car dealership",
