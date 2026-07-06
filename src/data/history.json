@@ -415,5 +415,20 @@
     "id": 1506643,
     "title": "Mercedes-Benz E-Class E220d",
     "price": 67800
+  },
+  {
+    "date": "2026-07-06",
+    "type": "price_change",
+    "id": 1510170,
+    "title": "BMW X4 xDrive20i Sunroof",
+    "from": 50800,
+    "to": 48800
+  },
+  {
+    "date": "2026-07-06",
+    "type": "new",
+    "id": 1516696,
+    "title": "Maserati GranTurismo 4.2A (COE till 05/2028)",
+    "price": 36800
   }
 ]
