@@ -430,5 +430,36 @@
     "id": 1516696,
     "title": "Maserati GranTurismo 4.2A (COE till 05/2028)",
     "price": 36800
+  },
+  {
+    "date": "2026-07-07",
+    "type": "price_change",
+    "id": 1461255,
+    "title": "Volkswagen Tiguan 1.4A TSI Highline Panoramic Roof",
+    "from": 35800,
+    "to": 33800
+  },
+  {
+    "date": "2026-07-07",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 107500,
+    "to": 106500
+  },
+  {
+    "date": "2026-07-07",
+    "type": "price_change",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "from": 63500,
+    "to": 64500
+  },
+  {
+    "date": "2026-07-07",
+    "type": "sold",
+    "id": 1510170,
+    "title": "BMW X4 xDrive20i Sunroof",
+    "price": 48800
   }
 ]
