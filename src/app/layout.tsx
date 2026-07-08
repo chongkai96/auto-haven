@@ -37,6 +37,14 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image" },
 };
 
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: site.name,
+  alternateName: "AutoHaven SG",
+  url: site.url,
+};
+
 const dealerJsonLd = {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
@@ -72,6 +80,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <JsonLd data={websiteJsonLd} />
         <JsonLd data={dealerJsonLd} />
         <Navbar />
         <main className="flex-1">{children}</main>
