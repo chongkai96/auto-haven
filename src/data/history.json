@@ -461,5 +461,20 @@
     "id": 1510170,
     "title": "BMW X4 xDrive20i Sunroof",
     "price": 48800
+  },
+  {
+    "date": "2026-07-08",
+    "type": "new",
+    "id": 1517204,
+    "title": "Honda Freed 1.5A G",
+    "price": 37800
+  },
+  {
+    "date": "2026-07-08",
+    "type": "price_change",
+    "id": 1516696,
+    "title": "Maserati GranTurismo 4.2A (COE till 05/2028)",
+    "from": 36800,
+    "to": 33800
   }
 ]
