@@ -594,5 +594,74 @@
     "id": 1517204,
     "title": "Honda Freed 1.5A G",
     "price": 37800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "new",
+    "id": 1519611,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "price": 91800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "price_change",
+    "id": 1517531,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "from": 95800,
+    "to": 93800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "price_change",
+    "id": 1517613,
+    "title": "Peugeot 3008 1.2A PureTech EAT6 Allure Sunroof",
+    "from": 30800,
+    "to": 29800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "price_change",
+    "id": 1515846,
+    "title": "Skoda Kodiaq 2.0A TSI Laurin & Klement",
+    "from": 80800,
+    "to": 77800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "price_change",
+    "id": 1506646,
+    "title": "Audi RS 5 Coupe 2.9A TFSI Quattro Sunroof",
+    "from": 135800,
+    "to": 132800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "price_change",
+    "id": 1514775,
+    "title": "Nissan NV200 1.6A DX",
+    "from": 11800,
+    "to": 12800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "price_change",
+    "id": 1505851,
+    "title": "Volkswagen Sportsvan 1.4A TSI Comfortline",
+    "from": 32800,
+    "to": 33800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "sold",
+    "id": 1485035,
+    "title": "Renault Scenic Diesel 1.5A dCi",
+    "price": 44800
+  },
+  {
+    "date": "2026-07-17",
+    "type": "sold",
+    "id": 1516621,
+    "title": "Volkswagen Golf 1.4A TSI Highline Sunroof (New 5-yr COE)",
+    "price": 76800
   }
 ]
