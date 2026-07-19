@@ -663,5 +663,33 @@
     "id": 1516621,
     "title": "Volkswagen Golf 1.4A TSI Highline Sunroof (New 5-yr COE)",
     "price": 76800
+  },
+  {
+    "date": "2026-07-19",
+    "type": "new",
+    "id": 1520374,
+    "title": "Mercedes-Benz A-Class A180 Style",
+    "price": 38800
+  },
+  {
+    "date": "2026-07-19",
+    "type": "sold",
+    "id": 1514775,
+    "title": "Nissan NV200 1.6A DX",
+    "price": 12800
+  },
+  {
+    "date": "2026-07-19",
+    "type": "sold",
+    "id": 1461255,
+    "title": "Volkswagen Tiguan 1.4A TSI Highline Panoramic Roof",
+    "price": 33800
+  },
+  {
+    "date": "2026-07-19",
+    "type": "sold",
+    "id": 1516696,
+    "title": "Maserati GranTurismo 4.2A (COE till 05/2028)",
+    "price": 33800
   }
 ]
