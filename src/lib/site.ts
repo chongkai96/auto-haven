@@ -5,7 +5,7 @@
  * @revohaven / fb.com/RevoHaven — servicing (Revo Haven).
  */
 export const site = {
-  name: "Auto Haven",
+  name: "AutoHaven",
   legalName: "Autohaven Pte Ltd",
   // Canonical site URL (update to the custom domain when you get one).
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://auto-haven-jade.vercel.app",

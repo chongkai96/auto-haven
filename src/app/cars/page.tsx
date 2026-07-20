@@ -4,7 +4,7 @@ import ListingsBrowser from "@/components/ListingsBrowser";
 
 export const metadata: Metadata = {
   title: "Used Cars for Sale",
-  description: "Browse Auto Haven's full range of quality pre-owned cars in Singapore.",
+  description: "Browse AutoHaven's full range of quality pre-owned cars in Singapore.",
 };
 
 export default function CarsPage() {

@@ -26,7 +26,7 @@ export default function AboutPage() {
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
         <Photo
           src="/images/showroom-1.jpg"
-          alt="Auto Haven showroom"
+          alt="AutoHaven showroom"
           className="aspect-[4/3] w-full rounded-xl"
         />
         <Photo

@@ -200,7 +200,7 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4">
             <Photo
               src="/images/showroom-1.jpg"
-              alt="Auto Haven showroom"
+              alt="AutoHaven showroom"
               className="col-span-2 aspect-[16/9] w-full rounded-xl"
             />
             <Photo
