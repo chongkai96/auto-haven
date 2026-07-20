@@ -13,9 +13,15 @@ export const site = {
   tagline: "Driven to serve you better.",
   category: "Car dealership",
   description:
-    "Auto Haven is a Singapore used-car dealer dedicated to providing a safe haven for " +
-    "all your automotive needs — a hand-picked range of quality pre-owned vehicles, backed " +
-    "by our own workshop, Revo Haven.",
+    "Autohaven Pte Ltd offers an extensive fleet of high-quality pre-owned vehicles that " +
+    "cater to all budgets and needs. Their vehicles undergo thorough inspections to ensure " +
+    "quality, reliability, and performance, giving you peace of mind with every purchase. " +
+    "Autohaven is committed to making your car-buying experience seamless, transparent, and " +
+    "tailored to your specific requirements.",
+  // Condensed version for tight spots (e.g. the footer column).
+  shortDescription:
+    "Autohaven Pte Ltd offers an extensive fleet of high-quality pre-owned vehicles that " +
+    "cater to all budgets and needs.",
 
   // Auto Haven contact — used everywhere EXCEPT the servicing page.
   contact: {

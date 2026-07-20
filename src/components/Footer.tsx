@@ -14,7 +14,7 @@ export default function Footer() {
             height={55}
             className="h-11 w-auto object-contain"
           />
-          <p className="mt-3 max-w-xs text-sm text-white/60">{site.description}</p>
+          <p className="mt-3 max-w-xs text-sm text-white/60">{site.shortDescription}</p>
           <p className="mt-2 text-xs italic text-green">{site.tagline}</p>
         </div>
 
