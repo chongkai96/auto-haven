@@ -14,9 +14,9 @@ export const site = {
   category: "Car dealership",
   description:
     "Autohaven Pte Ltd offers an extensive fleet of high-quality pre-owned vehicles that " +
-    "cater to all budgets and needs. Their vehicles undergo thorough inspections to ensure " +
+    "cater to all budgets and needs. Our vehicles undergo thorough inspections to ensure " +
     "quality, reliability, and performance, giving you peace of mind with every purchase. " +
-    "Autohaven is committed to making your car-buying experience seamless, transparent, and " +
+    "We're committed to making your car-buying experience seamless, transparent, and " +
     "tailored to your specific requirements.",
   // Condensed version for tight spots (e.g. the footer column).
   shortDescription:
