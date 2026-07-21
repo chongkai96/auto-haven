@@ -691,5 +691,29 @@
     "id": 1516696,
     "title": "Maserati GranTurismo 4.2A (COE till 05/2028)",
     "price": 33800
+  },
+  {
+    "date": "2026-07-21",
+    "type": "price_change",
+    "id": 1519611,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "from": 91800,
+    "to": 89800
+  },
+  {
+    "date": "2026-07-21",
+    "type": "price_change",
+    "id": 1517531,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "from": 93800,
+    "to": 91800
+  },
+  {
+    "date": "2026-07-21",
+    "type": "price_change",
+    "id": 1517894,
+    "title": "Volkswagen Golf GTI 5DR Sunroof",
+    "from": 63800,
+    "to": 61800
   }
 ]
