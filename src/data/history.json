@@ -715,5 +715,44 @@
     "title": "Volkswagen Golf GTI 5DR Sunroof",
     "from": 63800,
     "to": 61800
+  },
+  {
+    "date": "2026-07-22",
+    "type": "price_change",
+    "id": 1519611,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "from": 89800,
+    "to": 91800
+  },
+  {
+    "date": "2026-07-22",
+    "type": "price_change",
+    "id": 1517531,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "from": 91800,
+    "to": 92800
+  },
+  {
+    "date": "2026-07-22",
+    "type": "price_change",
+    "id": 1513068,
+    "title": "BMW 4 Series 420i Gran Coupe",
+    "from": 64800,
+    "to": 62800
+  },
+  {
+    "date": "2026-07-22",
+    "type": "price_change",
+    "id": 1505851,
+    "title": "Volkswagen Sportsvan 1.4A TSI Comfortline",
+    "from": 33800,
+    "to": 31800
+  },
+  {
+    "date": "2026-07-22",
+    "type": "sold",
+    "id": 1515532,
+    "title": "Alfa Romeo Giulia 2.9A Quadrifoglio",
+    "price": 182800
   }
 ]
