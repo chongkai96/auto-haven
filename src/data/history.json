@@ -754,5 +754,34 @@
     "id": 1515532,
     "title": "Alfa Romeo Giulia 2.9A Quadrifoglio",
     "price": 182800
+  },
+  {
+    "date": "2026-07-24",
+    "type": "price_change",
+    "id": 1486654,
+    "title": "Toyota Rav4 2.4A 5DR (COE till 06/2028)",
+    "from": 25800,
+    "to": 24500
+  },
+  {
+    "date": "2026-07-24",
+    "type": "sold",
+    "id": 1517613,
+    "title": "Peugeot 3008 1.2A PureTech EAT6 Allure Sunroof",
+    "price": 29800
+  },
+  {
+    "date": "2026-07-24",
+    "type": "sold",
+    "id": 1502339,
+    "title": "Volkswagen Sharan 2.0A TSI Panoramic Roof",
+    "price": 45388
+  },
+  {
+    "date": "2026-07-24",
+    "type": "sold",
+    "id": 1510316,
+    "title": "Toyota Prius Plus Hybrid 1.8A",
+    "price": 61800
   }
 ]
