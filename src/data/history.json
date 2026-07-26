@@ -783,5 +783,19 @@
     "id": 1510316,
     "title": "Toyota Prius Plus Hybrid 1.8A",
     "price": 61800
+  },
+  {
+    "date": "2026-07-26",
+    "type": "new",
+    "id": 1521844,
+    "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
+    "price": 36800
+  },
+  {
+    "date": "2026-07-26",
+    "type": "sold",
+    "id": 1485851,
+    "title": "Peugeot 5008 1.2A Puretech EAT8 Active Premium",
+    "price": 91800
   }
 ]
