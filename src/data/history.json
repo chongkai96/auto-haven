@@ -797,5 +797,27 @@
     "id": 1485851,
     "title": "Peugeot 5008 1.2A Puretech EAT8 Active Premium",
     "price": 91800
+  },
+  {
+    "date": "2026-07-27",
+    "type": "new",
+    "id": 1522380,
+    "title": "Honda Jazz 1.5A",
+    "price": 34500
+  },
+  {
+    "date": "2026-07-27",
+    "type": "new",
+    "id": 1522382,
+    "title": "Volvo S90 T5 Momentum",
+    "price": 78800
+  },
+  {
+    "date": "2026-07-27",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 106500,
+    "to": 104500
   }
 ]
