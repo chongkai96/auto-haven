@@ -819,5 +819,27 @@
     "title": "BMW 1 Series 116i Luxury",
     "from": 106500,
     "to": 104500
+  },
+  {
+    "date": "2026-07-28",
+    "type": "new",
+    "id": 1522620,
+    "title": "Jaguar XE S 3.0A V6",
+    "price": 59800
+  },
+  {
+    "date": "2026-07-28",
+    "type": "price_change",
+    "id": 1522382,
+    "title": "Volvo S90 T5 Momentum",
+    "from": 78800,
+    "to": 73800
+  },
+  {
+    "date": "2026-07-28",
+    "type": "sold",
+    "id": 1519611,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "price": 91800
   }
 ]
