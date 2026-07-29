@@ -841,5 +841,45 @@
     "id": 1519611,
     "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
     "price": 91800
+  },
+  {
+    "date": "2026-07-29",
+    "type": "price_change",
+    "id": 1515933,
+    "title": "Toyota Blade 2.4A (COE till 02/2028)",
+    "from": 14800,
+    "to": 17800
+  },
+  {
+    "date": "2026-07-29",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 131500,
+    "to": 129500
+  },
+  {
+    "date": "2026-07-29",
+    "type": "price_change",
+    "id": 1517898,
+    "title": "Toyota Crown Crossover Hybrid 2.5 G Advanced Leather Package",
+    "from": 263800,
+    "to": 261800
+  },
+  {
+    "date": "2026-07-29",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 104500,
+    "to": 102500
+  },
+  {
+    "date": "2026-07-29",
+    "type": "price_change",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "from": 63500,
+    "to": 62500
   }
 ]
