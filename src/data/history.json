@@ -881,5 +881,42 @@
     "title": "Lexus IS Turbo IS300 Executive",
     "from": 63500,
     "to": 62500
+  },
+  {
+    "date": "2026-07-30",
+    "type": "price_change",
+    "id": 1483718,
+    "title": "Mitsubishi Lancer EX 2.0A GT (COE till 09/2028)",
+    "from": 26800,
+    "to": 24500
+  },
+  {
+    "date": "2026-07-30",
+    "type": "new",
+    "id": 1523140,
+    "title": "Mercedes-Benz A-Class Saloon A200 Progressive",
+    "price": 88800
+  },
+  {
+    "date": "2026-07-30",
+    "type": "price_change",
+    "id": 1486654,
+    "title": "Toyota Rav4 2.4A 5DR (COE till 06/2028)",
+    "from": 24500,
+    "to": 22500
+  },
+  {
+    "date": "2026-07-30",
+    "type": "sold",
+    "id": 1500751,
+    "title": "Mercedes-Benz B-Class B180 Style",
+    "price": 51500
+  },
+  {
+    "date": "2026-07-30",
+    "type": "sold",
+    "id": 1515846,
+    "title": "Skoda Kodiaq 2.0A TSI Laurin & Klement",
+    "price": 77800
   }
 ]
