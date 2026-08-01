@@ -941,5 +941,12 @@
     "id": 1517162,
     "title": "Volkswagen Tiguan 1.4A TSI Highline",
     "price": 105800
+  },
+  {
+    "date": "2026-08-01",
+    "type": "new",
+    "id": 1523752,
+    "title": "Volkswagen Golf 1.4A TSI Highline Sunroof (COE till 07/2030)",
+    "price": 54800
   }
 ]
