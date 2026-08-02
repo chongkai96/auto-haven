@@ -948,5 +948,19 @@
     "id": 1523752,
     "title": "Volkswagen Golf 1.4A TSI Highline Sunroof (COE till 07/2030)",
     "price": 54800
+  },
+  {
+    "date": "2026-08-02",
+    "type": "new",
+    "id": 1524202,
+    "title": "Suzuki Swift Mega Sports 1.6A (New 5-yr COE)",
+    "price": 68800
+  },
+  {
+    "date": "2026-08-02",
+    "type": "sold",
+    "id": 1517898,
+    "title": "Toyota Crown Crossover Hybrid 2.5 G Advanced Leather Package",
+    "price": 261800
   }
 ]
