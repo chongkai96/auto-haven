@@ -969,5 +969,82 @@
     "id": 1524380,
     "title": "Toyota Sienta 1.5A Elegance",
     "price": 49800
+  },
+  {
+    "date": "2026-08-07",
+    "type": "price_change",
+    "id": 1513068,
+    "title": "BMW 4 Series 420i Gran Coupe",
+    "from": 62800,
+    "to": 60800
+  },
+  {
+    "date": "2026-08-07",
+    "type": "new",
+    "id": 1525573,
+    "title": "Toyota Crown Crossover Hybrid 2.5A G Advanced Leather Package",
+    "price": 258800
+  },
+  {
+    "date": "2026-08-07",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 102500,
+    "to": 101500
+  },
+  {
+    "date": "2026-08-07",
+    "type": "price_change",
+    "id": 1520374,
+    "title": "Mercedes-Benz A-Class A180 Style",
+    "from": 38800,
+    "to": 35800
+  },
+  {
+    "date": "2026-08-07",
+    "type": "price_change",
+    "id": 1523140,
+    "title": "Mercedes-Benz A-Class Saloon A200 Progressive",
+    "from": 83800,
+    "to": 82800
+  },
+  {
+    "date": "2026-08-07",
+    "type": "new",
+    "id": 1525317,
+    "title": "Honda Odyssey 2.4A EXV-S Sunroof",
+    "price": 54800
+  },
+  {
+    "date": "2026-08-07",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 129500,
+    "to": 128500
+  },
+  {
+    "date": "2026-08-07",
+    "type": "price_change",
+    "id": 1508238,
+    "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
+    "from": 50580,
+    "to": 48580
+  },
+  {
+    "date": "2026-08-07",
+    "type": "price_change",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "from": 62500,
+    "to": 61800
+  },
+  {
+    "date": "2026-08-07",
+    "type": "sold",
+    "id": 1516330,
+    "title": "BMW 3 Series 320i Convertible (COE till 04/2028)",
+    "price": 21800
   }
 ]
