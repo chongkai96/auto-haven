@@ -1046,5 +1046,19 @@
     "id": 1516330,
     "title": "BMW 3 Series 320i Convertible (COE till 04/2028)",
     "price": 21800
+  },
+  {
+    "date": "2026-08-08",
+    "type": "new",
+    "id": 1526108,
+    "title": "BMW 2 Series 218i Gran Coupe M-Sport",
+    "price": 112800
+  },
+  {
+    "date": "2026-08-08",
+    "type": "new",
+    "id": 1525934,
+    "title": "Infiniti Q30 1.6A T Premium",
+    "price": 47800
   }
 ]
