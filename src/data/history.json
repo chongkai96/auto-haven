@@ -1082,5 +1082,19 @@
     "id": 1526491,
     "title": "Mercedes-Benz GLA-Class GLA180 Progressive",
     "price": 145800
+  },
+  {
+    "date": "2026-08-11",
+    "type": "new",
+    "id": 1526602,
+    "title": "Lexus NX Turbo NX300 Executive",
+    "price": 60800
+  },
+  {
+    "date": "2026-08-11",
+    "type": "sold",
+    "id": 1515933,
+    "title": "Toyota Blade 2.4A (COE till 02/2028)",
+    "price": 17800
   }
 ]
