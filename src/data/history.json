@@ -1096,5 +1096,19 @@
     "id": 1515933,
     "title": "Toyota Blade 2.4A (COE till 02/2028)",
     "price": 17800
+  },
+  {
+    "date": "2026-08-12",
+    "type": "sold",
+    "id": 1505851,
+    "title": "Volkswagen Sportsvan 1.4A TSI Comfortline",
+    "price": 31800
+  },
+  {
+    "date": "2026-08-12",
+    "type": "sold",
+    "id": 1525573,
+    "title": "Toyota Crown Crossover Hybrid 2.5A G Advanced Leather Package",
+    "price": 258800
   }
 ]
