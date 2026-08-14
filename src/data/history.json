@@ -1110,5 +1110,20 @@
     "id": 1525573,
     "title": "Toyota Crown Crossover Hybrid 2.5A G Advanced Leather Package",
     "price": 258800
+  },
+  {
+    "date": "2026-08-14",
+    "type": "price_change",
+    "id": 1522620,
+    "title": "Jaguar XE S 3.0A V6",
+    "from": 58800,
+    "to": 55800
+  },
+  {
+    "date": "2026-08-14",
+    "type": "sold",
+    "id": 1508238,
+    "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
+    "price": 48580
   }
 ]
