@@ -1125,5 +1125,12 @@
     "id": 1508238,
     "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
     "price": 48580
+  },
+  {
+    "date": "2026-08-15",
+    "type": "new",
+    "id": 1527731,
+    "title": "Nissan NV200 1.6A DX",
+    "price": 17800
   }
 ]
