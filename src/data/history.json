@@ -1162,5 +1162,40 @@
     "id": 1522380,
     "title": "Honda Jazz 1.5A",
     "price": 34500
+  },
+  {
+    "date": "2026-08-19",
+    "type": "new",
+    "id": 1528701,
+    "title": "BMW X1 sDrive18i",
+    "price": 36800
+  },
+  {
+    "date": "2026-08-19",
+    "type": "new",
+    "id": 1528685,
+    "title": "Mercedes-Benz S-Class S300L (COE till 12/2026)",
+    "price": 5800
+  },
+  {
+    "date": "2026-08-19",
+    "type": "new",
+    "id": 1528622,
+    "title": "Daihatsu Copen (COE till 10/2026)",
+    "price": 7800
+  },
+  {
+    "date": "2026-08-19",
+    "type": "sold",
+    "id": 1527731,
+    "title": "Nissan NV200 1.6A DX",
+    "price": 17800
+  },
+  {
+    "date": "2026-08-19",
+    "type": "sold",
+    "id": 1517894,
+    "title": "Volkswagen Golf GTI 5DR Sunroof",
+    "price": 61800
   }
 ]
