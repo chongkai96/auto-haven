@@ -1197,5 +1197,73 @@
     "id": 1517894,
     "title": "Volkswagen Golf GTI 5DR Sunroof",
     "price": 61800
+  },
+  {
+    "date": "2026-08-20",
+    "type": "price_change",
+    "id": 1518443,
+    "title": "Honda Civic Type-R 2.0M VTEC Turbo GT",
+    "from": 193888,
+    "to": 188000
+  },
+  {
+    "date": "2026-08-20",
+    "type": "new",
+    "id": 1529227,
+    "title": "Mercedes-Benz GLA-Class GLA180 Urban Edition",
+    "price": 62800
+  },
+  {
+    "date": "2026-08-20",
+    "type": "new",
+    "id": 1529225,
+    "title": "BMW 7 Series 730Li Sunroof",
+    "price": 92800
+  },
+  {
+    "date": "2026-08-20",
+    "type": "new",
+    "id": 1529048,
+    "title": "Audi Q2 1.0A TFSI S-tronic",
+    "price": 53800
+  },
+  {
+    "date": "2026-08-20",
+    "type": "price_change",
+    "id": 1517531,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "from": 92800,
+    "to": 90800
+  },
+  {
+    "date": "2026-08-20",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 101500,
+    "to": 100500
+  },
+  {
+    "date": "2026-08-20",
+    "type": "price_change",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "from": 61800,
+    "to": 60800
+  },
+  {
+    "date": "2026-08-20",
+    "type": "price_change",
+    "id": 1522620,
+    "title": "Jaguar XE S 3.0A V6",
+    "from": 55800,
+    "to": 54800
+  },
+  {
+    "date": "2026-08-20",
+    "type": "sold",
+    "id": 1526602,
+    "title": "Lexus NX Turbo NX300 Executive",
+    "price": 65800
   }
 ]
