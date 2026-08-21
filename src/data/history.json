@@ -1265,5 +1265,35 @@
     "id": 1526602,
     "title": "Lexus NX Turbo NX300 Executive",
     "price": 65800
+  },
+  {
+    "date": "2026-08-21",
+    "type": "new",
+    "id": 1529345,
+    "title": "Mercedes-Benz GLA-Class GLA180 Urban Edition",
+    "price": 60800
+  },
+  {
+    "date": "2026-08-21",
+    "type": "new",
+    "id": 1483718,
+    "title": "Mitsubishi Lancer EX 2.0A GT (COE till 09/2028)",
+    "price": 25800
+  },
+  {
+    "date": "2026-08-21",
+    "type": "price_change",
+    "id": 1529225,
+    "title": "BMW 7 Series 730Li Sunroof",
+    "from": 92800,
+    "to": 89800
+  },
+  {
+    "date": "2026-08-21",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 128500,
+    "to": 126500
   }
 ]
