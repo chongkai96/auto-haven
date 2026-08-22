@@ -1295,5 +1295,40 @@
     "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
     "from": 128500,
     "to": 126500
+  },
+  {
+    "date": "2026-08-22",
+    "type": "new",
+    "id": 1529737,
+    "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
+    "price": 28500
+  },
+  {
+    "date": "2026-08-22",
+    "type": "new",
+    "id": 1529657,
+    "title": "Ford Focus RS 2.3M GTDI (New 10-yr COE)",
+    "price": 159800
+  },
+  {
+    "date": "2026-08-22",
+    "type": "new",
+    "id": 1529671,
+    "title": "Mercedes-Benz E-Class E200K (COE till 07/2027)",
+    "price": 11800
+  },
+  {
+    "date": "2026-08-22",
+    "type": "new",
+    "id": 1529558,
+    "title": "Kia Cerato K3 1.6A",
+    "price": 23800
+  },
+  {
+    "date": "2026-08-22",
+    "type": "new",
+    "id": 1529617,
+    "title": "Mercedes-Benz A-Class A180 Progressive",
+    "price": 64800
   }
 ]
