@@ -1330,5 +1330,20 @@
     "id": 1529617,
     "title": "Mercedes-Benz A-Class A180 Progressive",
     "price": 64800
+  },
+  {
+    "date": "2026-08-23",
+    "type": "price_change",
+    "id": 1528685,
+    "title": "Mercedes-Benz S-Class S300L (COE till 12/2026)",
+    "from": 5800,
+    "to": 4800
+  },
+  {
+    "date": "2026-08-23",
+    "type": "new",
+    "id": 1530064,
+    "title": "Mercedes-Benz GLB-Class GLB180 Progressive",
+    "price": 175800
   }
 ]
