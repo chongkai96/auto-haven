@@ -1345,5 +1345,28 @@
     "id": 1530064,
     "title": "Mercedes-Benz GLB-Class GLB180 Progressive",
     "price": 175800
+  },
+  {
+    "date": "2026-08-25",
+    "type": "price_change",
+    "id": 1517531,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "from": 90800,
+    "to": 87500
+  },
+  {
+    "date": "2026-08-25",
+    "type": "price_change",
+    "id": 1523752,
+    "title": "Volkswagen Golf 1.4A TSI Highline Sunroof (COE till 07/2030)",
+    "from": 54800,
+    "to": 52800
+  },
+  {
+    "date": "2026-08-25",
+    "type": "sold",
+    "id": 1528701,
+    "title": "BMW X1 sDrive18i",
+    "price": 36800
   }
 ]
