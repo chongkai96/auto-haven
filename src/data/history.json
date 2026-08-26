@@ -1368,5 +1368,173 @@
     "id": 1528701,
     "title": "BMW X1 sDrive18i",
     "price": 36800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1523140,
+    "title": "Mercedes-Benz A-Class Saloon A200 Progressive",
+    "from": 80888,
+    "to": 79888
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1529737,
+    "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
+    "from": 28500,
+    "to": 26500
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1521844,
+    "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
+    "from": 36800,
+    "to": 34800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1520374,
+    "title": "Mercedes-Benz A-Class A180 Style",
+    "from": 35800,
+    "to": 34800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 100500,
+    "to": 98500
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1529225,
+    "title": "BMW 7 Series 730Li Sunroof",
+    "from": 89800,
+    "to": 87800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1526108,
+    "title": "BMW 2 Series 218i Gran Coupe M-Sport",
+    "from": 112800,
+    "to": 109800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1525317,
+    "title": "Honda Odyssey 2.4A EXV-S Sunroof",
+    "from": 52800,
+    "to": 49800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1522382,
+    "title": "Volvo S90 T5 Momentum",
+    "from": 73800,
+    "to": 71800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1518150,
+    "title": "Mazda CX-3 2.0A Deluxe",
+    "from": 54388,
+    "to": 52388
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1529558,
+    "title": "Kia Cerato K3 1.6A",
+    "from": 23800,
+    "to": 22800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1529227,
+    "title": "Mercedes-Benz GLA-Class GLA180 Urban Edition",
+    "from": 62800,
+    "to": 60800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1529048,
+    "title": "Audi Q2 1.0A TFSI S-tronic",
+    "from": 53800,
+    "to": 52800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1526491,
+    "title": "Mercedes-Benz GLA-Class GLA180 Progressive",
+    "from": 145800,
+    "to": 143800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1525934,
+    "title": "Infiniti Q30 1.6A T Premium",
+    "from": 47800,
+    "to": 44800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 126500,
+    "to": 127500
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1529671,
+    "title": "Mercedes-Benz E-Class E200K (COE till 07/2027)",
+    "from": 11800,
+    "to": 10800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1524380,
+    "title": "Toyota Sienta 1.5A Elegance",
+    "from": 49800,
+    "to": 47800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1529345,
+    "title": "Mercedes-Benz GLA-Class GLA180 Urban Edition",
+    "from": 60800,
+    "to": 58500
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1523752,
+    "title": "Volkswagen Golf 1.4A TSI Highline Sunroof (COE till 07/2030)",
+    "from": 52800,
+    "to": 49800
+  },
+  {
+    "date": "2026-08-26",
+    "type": "price_change",
+    "id": 1483718,
+    "title": "Mitsubishi Lancer EX 2.0A GT (COE till 09/2028)",
+    "from": 25800,
+    "to": 24800
   }
 ]
