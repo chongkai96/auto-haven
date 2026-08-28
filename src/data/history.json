@@ -1536,5 +1536,12 @@
     "title": "Mitsubishi Lancer EX 2.0A GT (COE till 09/2028)",
     "from": 25800,
     "to": 24800
+  },
+  {
+    "date": "2026-08-28",
+    "type": "new",
+    "id": 1531367,
+    "title": "Toyota Estima 2.4A Aeras Moonroof (COE till 07/2027)",
+    "price": 13800
   }
 ]
