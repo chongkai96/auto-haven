@@ -1543,5 +1543,27 @@
     "id": 1531367,
     "title": "Toyota Estima 2.4A Aeras Moonroof (COE till 07/2027)",
     "price": 13800
+  },
+  {
+    "date": "2026-08-29",
+    "type": "new",
+    "id": 1531477,
+    "title": "Mercedes-Benz E-Class E200 Avantgarde Sunroof",
+    "price": 65800
+  },
+  {
+    "date": "2026-08-29",
+    "type": "price_change",
+    "id": 1529657,
+    "title": "Ford Focus RS 2.3M GTDI (New 10-yr COE)",
+    "from": 159800,
+    "to": 158800
+  },
+  {
+    "date": "2026-08-29",
+    "type": "sold",
+    "id": 1524202,
+    "title": "Suzuki Swift Mega Sports 1.6A (New 5-yr COE)",
+    "price": 68800
   }
 ]
