@@ -1586,5 +1586,20 @@
     "id": 1531367,
     "title": "Toyota Estima 2.4A Aeras Moonroof (COE till 07/2027)",
     "price": 13800
+  },
+  {
+    "date": "2026-09-01",
+    "type": "price_change",
+    "id": 1531910,
+    "title": "Mercedes-Benz C-Class C200 Exclusive",
+    "from": 48800,
+    "to": 47500
+  },
+  {
+    "date": "2026-09-01",
+    "type": "new",
+    "id": 1532296,
+    "title": "Mercedes-Benz C-Class C180 Coupe",
+    "price": 59800
   }
 ]
