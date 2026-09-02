@@ -1601,5 +1601,35 @@
     "id": 1532296,
     "title": "Mercedes-Benz C-Class C180 Coupe",
     "price": 59800
+  },
+  {
+    "date": "2026-09-02",
+    "type": "price_change",
+    "id": 1510170,
+    "title": "BMW X4 xDrive20i Sunroof",
+    "from": 48800,
+    "to": 41500
+  },
+  {
+    "date": "2026-09-02",
+    "type": "new",
+    "id": 1532481,
+    "title": "Nissan Qashqai 1.2A DIG-T",
+    "price": 35800
+  },
+  {
+    "date": "2026-09-02",
+    "type": "price_change",
+    "id": 1528622,
+    "title": "Daihatsu Copen (COE till 10/2026)",
+    "from": 7800,
+    "to": 5800
+  },
+  {
+    "date": "2026-09-02",
+    "type": "sold",
+    "id": 1529225,
+    "title": "BMW 7 Series 730Li Sunroof",
+    "price": 87800
   }
 ]
