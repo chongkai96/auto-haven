@@ -1631,5 +1631,19 @@
     "id": 1529225,
     "title": "BMW 7 Series 730Li Sunroof",
     "price": 87800
+  },
+  {
+    "date": "2026-09-03",
+    "type": "sold",
+    "id": 1528685,
+    "title": "Mercedes-Benz S-Class S300L (COE till 12/2026)",
+    "price": 4800
+  },
+  {
+    "date": "2026-09-03",
+    "type": "sold",
+    "id": 1521844,
+    "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
+    "price": 34800
   }
 ]
