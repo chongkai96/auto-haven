@@ -1645,5 +1645,40 @@
     "id": 1521844,
     "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
     "price": 34800
+  },
+  {
+    "date": "2026-09-04",
+    "type": "new",
+    "id": 1533193,
+    "title": "Jeep Renegade 1.4A Limited",
+    "price": 32500
+  },
+  {
+    "date": "2026-09-04",
+    "type": "new",
+    "id": 1533134,
+    "title": "Skoda Octavia 1.0A TSI Ambition Plus",
+    "price": 41800
+  },
+  {
+    "date": "2026-09-04",
+    "type": "new",
+    "id": 1533132,
+    "title": "Honda Civic 1.6A VTi",
+    "price": 28800
+  },
+  {
+    "date": "2026-09-04",
+    "type": "sold",
+    "id": 1483718,
+    "title": "Mitsubishi Lancer EX 2.0A GT (COE till 09/2028)",
+    "price": 24800
+  },
+  {
+    "date": "2026-09-04",
+    "type": "sold",
+    "id": 1510170,
+    "title": "BMW X4 xDrive20i Sunroof",
+    "price": 41500
   }
 ]
