@@ -1680,5 +1680,33 @@
     "id": 1510170,
     "title": "BMW X4 xDrive20i Sunroof",
     "price": 41500
+  },
+  {
+    "date": "2026-09-05",
+    "type": "new",
+    "id": 1533410,
+    "title": "Volkswagen Tiguan 1.4A TSI Highline Panoramic Roof",
+    "price": 61800
+  },
+  {
+    "date": "2026-09-05",
+    "type": "new",
+    "id": 1533393,
+    "title": "Mercedes-Benz C-Class C43 AMG 4MATIC",
+    "price": 97800
+  },
+  {
+    "date": "2026-09-05",
+    "type": "new",
+    "id": 1533352,
+    "title": "Kia Sorento Diesel 2.2A CRDi GT Line Sunroof",
+    "price": 67800
+  },
+  {
+    "date": "2026-09-05",
+    "type": "sold",
+    "id": 1522620,
+    "title": "Jaguar XE S 3.0A V6",
+    "price": 54800
   }
 ]
