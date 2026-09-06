@@ -1708,5 +1708,12 @@
     "id": 1522620,
     "title": "Jaguar XE S 3.0A V6",
     "price": 54800
+  },
+  {
+    "date": "2026-09-06",
+    "type": "sold",
+    "id": 1517531,
+    "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
+    "price": 87500
   }
 ]
