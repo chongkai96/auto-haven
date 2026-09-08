@@ -1715,5 +1715,12 @@
     "id": 1517531,
     "title": "Mercedes-Benz C-Class C43 Coupe AMG 4MATIC",
     "price": 87500
+  },
+  {
+    "date": "2026-09-08",
+    "type": "sold",
+    "id": 1513068,
+    "title": "BMW 4 Series 420i Gran Coupe",
+    "price": 60800
   }
 ]
