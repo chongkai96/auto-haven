@@ -1722,5 +1722,12 @@
     "id": 1513068,
     "title": "BMW 4 Series 420i Gran Coupe",
     "price": 60800
+  },
+  {
+    "date": "2026-09-09",
+    "type": "sold",
+    "id": 1529671,
+    "title": "Mercedes-Benz E-Class E200K (COE till 07/2027)",
+    "price": 10800
   }
 ]
