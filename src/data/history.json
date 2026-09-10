@@ -1729,5 +1729,43 @@
     "id": 1529671,
     "title": "Mercedes-Benz E-Class E200K (COE till 07/2027)",
     "price": 10800
+  },
+  {
+    "date": "2026-09-10",
+    "type": "new",
+    "id": 1534802,
+    "title": "Mercedes-Benz C-Class C180ML (COE till 11/2026)",
+    "price": 3200
+  },
+  {
+    "date": "2026-09-10",
+    "type": "price_change",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "from": 60800,
+    "to": 59500
+  },
+  {
+    "date": "2026-09-10",
+    "type": "price_change",
+    "id": 1533132,
+    "title": "Honda Civic 1.6A VTi",
+    "from": 28800,
+    "to": 27500
+  },
+  {
+    "date": "2026-09-10",
+    "type": "price_change",
+    "id": 1533193,
+    "title": "Jeep Renegade 1.4A Turbo Limited",
+    "from": 32500,
+    "to": 30500
+  },
+  {
+    "date": "2026-09-10",
+    "type": "sold",
+    "id": 1506646,
+    "title": "Audi RS 5 Coupe 2.9A TFSI Quattro Sunroof",
+    "price": 132800
   }
 ]
