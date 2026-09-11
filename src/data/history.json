@@ -1767,5 +1767,20 @@
     "id": 1506646,
     "title": "Audi RS 5 Coupe 2.9A TFSI Quattro Sunroof",
     "price": 132800
+  },
+  {
+    "date": "2026-09-11",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 127500,
+    "to": 122500
+  },
+  {
+    "date": "2026-09-11",
+    "type": "sold",
+    "id": 1534802,
+    "title": "Mercedes-Benz C-Class C180ML (COE till 11/2026)",
+    "price": 3200
   }
 ]
