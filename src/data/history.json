@@ -1782,5 +1782,12 @@
     "id": 1534802,
     "title": "Mercedes-Benz C-Class C180ML (COE till 11/2026)",
     "price": 3200
+  },
+  {
+    "date": "2026-09-12",
+    "type": "new",
+    "id": 1535376,
+    "title": "Honda Vezel Hybrid 1.5A X (New 5-yr COE)",
+    "price": 74800
   }
 ]
