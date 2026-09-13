@@ -1789,5 +1789,26 @@
     "id": 1535376,
     "title": "Honda Vezel Hybrid 1.5A X (New 5-yr COE)",
     "price": 74800
+  },
+  {
+    "date": "2026-09-13",
+    "type": "new",
+    "id": 1535613,
+    "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
+    "price": 50500
+  },
+  {
+    "date": "2026-09-13",
+    "type": "sold",
+    "id": 1529227,
+    "title": "Mercedes-Benz GLA-Class GLA180 Urban Edition",
+    "price": 60800
+  },
+  {
+    "date": "2026-09-13",
+    "type": "sold",
+    "id": 1529657,
+    "title": "Ford Focus RS 2.3M GTDI (New 10-yr COE)",
+    "price": 158800
   }
 ]
