@@ -1810,5 +1810,13 @@
     "id": 1529657,
     "title": "Ford Focus RS 2.3M GTDI (New 10-yr COE)",
     "price": 158800
+  },
+  {
+    "date": "2026-09-14",
+    "type": "price_change",
+    "id": 1533193,
+    "title": "Jeep Renegade 1.4A Turbo Limited",
+    "from": 30500,
+    "to": 31500
   }
 ]
