@@ -1818,5 +1818,108 @@
     "title": "Jeep Renegade 1.4A Turbo Limited",
     "from": 30500,
     "to": 31500
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1531477,
+    "title": "Mercedes-Benz E-Class E200 Avantgarde Sunroof",
+    "from": 65800,
+    "to": 62800
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1529737,
+    "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
+    "from": 26500,
+    "to": 25500
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1522382,
+    "title": "Volvo S90 T5 Momentum",
+    "from": 71800,
+    "to": 68800
+  },
+  {
+    "date": "2026-09-15",
+    "type": "new",
+    "id": 1536033,
+    "title": "Volkswagen Touran 1.4A TSI Comfortline",
+    "price": 55800
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1533410,
+    "title": "Volkswagen Tiguan 1.4A TSI Highline Panoramic Roof",
+    "from": 61800,
+    "to": 60500
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1535613,
+    "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
+    "from": 50500,
+    "to": 49500
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1529048,
+    "title": "Audi Q2 1.0A TFSI S-tronic",
+    "from": 52800,
+    "to": 51800
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1526108,
+    "title": "BMW 2 Series 218i Gran Coupe M-Sport",
+    "from": 109800,
+    "to": 106800
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1518150,
+    "title": "Mazda CX-3 2.0A Deluxe",
+    "from": 52388,
+    "to": 48388
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1533352,
+    "title": "Kia Sorento Diesel 2.2A CRDi GT Line Sunroof",
+    "from": 67800,
+    "to": 65500
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1532296,
+    "title": "Mercedes-Benz C-Class C180 Coupe",
+    "from": 59800,
+    "to": 58500
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1530064,
+    "title": "Mercedes-Benz GLB-Class GLB180 Progressive 7-Seater",
+    "from": 175800,
+    "to": 173800
+  },
+  {
+    "date": "2026-09-15",
+    "type": "price_change",
+    "id": 1532481,
+    "title": "Nissan Qashqai 1.2A DIG-T",
+    "from": 35800,
+    "to": 33800
   }
 ]
