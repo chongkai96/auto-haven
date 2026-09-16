@@ -1921,5 +1921,34 @@
     "title": "Nissan Qashqai 1.2A DIG-T",
     "from": 35800,
     "to": 33800
+  },
+  {
+    "date": "2026-09-16",
+    "type": "price_change",
+    "id": 1536033,
+    "title": "Volkswagen Touran 1.4A TSI Comfortline",
+    "from": 55800,
+    "to": 51800
+  },
+  {
+    "date": "2026-09-16",
+    "type": "sold",
+    "id": 1524380,
+    "title": "Toyota Sienta 1.5A Elegance",
+    "price": 47800
+  },
+  {
+    "date": "2026-09-16",
+    "type": "sold",
+    "id": 1525317,
+    "title": "Honda Odyssey 2.4A EXV-S Sunroof",
+    "price": 49800
+  },
+  {
+    "date": "2026-09-16",
+    "type": "sold",
+    "id": 1526491,
+    "title": "Mercedes-Benz GLA-Class GLA180 Progressive",
+    "price": 143800
   }
 ]
