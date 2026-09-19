@@ -2012,5 +2012,13 @@
     "id": 1535376,
     "title": "Honda Vezel Hybrid 1.5A X (New 5-yr COE)",
     "price": 74800
+  },
+  {
+    "date": "2026-09-19",
+    "type": "price_change",
+    "id": 1528622,
+    "title": "Daihatsu Copen (New 5-yr COE)",
+    "from": 4800,
+    "to": 70800
   }
 ]
