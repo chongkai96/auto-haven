@@ -2035,5 +2035,13 @@
     "id": 1529617,
     "title": "Mercedes-Benz A-Class A180 Progressive",
     "price": 65800
+  },
+  {
+    "date": "2026-09-23",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 122500,
+    "to": 125500
   }
 ]
