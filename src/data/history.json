@@ -2043,5 +2043,20 @@
     "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
     "from": 122500,
     "to": 125500
+  },
+  {
+    "date": "2026-09-24",
+    "type": "new",
+    "id": 1538150,
+    "title": "BMW 3 Series 318i Shadow Edition",
+    "price": 33888
+  },
+  {
+    "date": "2026-09-24",
+    "type": "price_change",
+    "id": 1533193,
+    "title": "Jeep Renegade 1.4A Turbo Limited",
+    "from": 31500,
+    "to": 30500
   }
 ]
