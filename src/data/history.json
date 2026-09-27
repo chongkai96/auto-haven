@@ -2102,5 +2102,19 @@
     "title": "Mercedes-Benz GLB-Class GLB180 Progressive 7-Seater",
     "from": 173800,
     "to": 171800
+  },
+  {
+    "date": "2026-09-27",
+    "type": "new",
+    "id": 1539097,
+    "title": "Honda Jazz 1.3A",
+    "price": 35800
+  },
+  {
+    "date": "2026-09-27",
+    "type": "new",
+    "id": 1539004,
+    "title": "Kia Stonic 1.0T",
+    "price": 37800
   }
 ]
