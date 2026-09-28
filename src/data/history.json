@@ -2116,5 +2116,12 @@
     "id": 1539004,
     "title": "Kia Stonic 1.0T",
     "price": 37800
+  },
+  {
+    "date": "2026-09-28",
+    "type": "sold",
+    "id": 1529048,
+    "title": "Audi Q2 1.0A TFSI S-tronic",
+    "price": 51800
   }
 ]
