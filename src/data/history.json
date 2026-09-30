@@ -2169,5 +2169,19 @@
     "id": 1532481,
     "title": "Nissan Qashqai 1.2A DIG-T",
     "price": 33800
+  },
+  {
+    "date": "2026-09-30",
+    "type": "sold",
+    "id": 1538150,
+    "title": "BMW 3 Series 318i Shadow Edition",
+    "price": 33888
+  },
+  {
+    "date": "2026-09-30",
+    "type": "sold",
+    "id": 1533134,
+    "title": "Skoda Octavia 1.0A TSI Ambition Plus",
+    "price": 41800
   }
 ]
