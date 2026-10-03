@@ -2183,5 +2183,124 @@
     "id": 1533134,
     "title": "Skoda Octavia 1.0A TSI Ambition Plus",
     "price": 41800
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1531910,
+    "title": "Mercedes-Benz C-Class C200 Exclusive",
+    "from": 47500,
+    "to": 45500
+  },
+  {
+    "date": "2026-10-03",
+    "type": "new",
+    "id": 1540680,
+    "title": "MINI Cooper S Cabriolet 2.0A",
+    "price": 68800
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1536033,
+    "title": "Volkswagen Touran 1.4A TSI Comfortline",
+    "from": 51800,
+    "to": 49800
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1535613,
+    "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
+    "from": 49500,
+    "to": 48500
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1533410,
+    "title": "Volkswagen Tiguan 1.4A TSI Highline Panoramic Roof",
+    "from": 59500,
+    "to": 58500
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 125500,
+    "to": 124500
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1533352,
+    "title": "Kia Sorento Diesel 2.2A CRDi GT Line Sunroof",
+    "from": 65500,
+    "to": 64500
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1526375,
+    "title": "Opel Insignia Grandsport Diesel 1.6A Turbo",
+    "from": 35800,
+    "to": 33800
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 98500,
+    "to": 99500
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1530064,
+    "title": "Mercedes-Benz GLB-Class GLB180 Progressive 7-Seater",
+    "from": 170800,
+    "to": 169800
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1529345,
+    "title": "Mercedes-Benz GLA-Class GLA180 Urban Edition",
+    "from": 58500,
+    "to": 56800
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "from": 59500,
+    "to": 58000
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1538790,
+    "title": "Honda Civic 1.6A VTi",
+    "from": 44800,
+    "to": 43800
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1526108,
+    "title": "BMW 2 Series 218i Gran Coupe M-Sport",
+    "from": 106800,
+    "to": 105500
+  },
+  {
+    "date": "2026-10-03",
+    "type": "price_change",
+    "id": 1533132,
+    "title": "Honda Civic 1.6A VTi",
+    "from": 27500,
+    "to": 26500
   }
 ]
