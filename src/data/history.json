@@ -2324,5 +2324,12 @@
     "id": 1531477,
     "title": "Mercedes-Benz E-Class E200 Avantgarde Sunroof",
     "price": 62800
+  },
+  {
+    "date": "2026-10-06",
+    "type": "sold",
+    "id": 1518150,
+    "title": "Mazda CX-3 2.0A Deluxe",
+    "price": 46880
   }
 ]
