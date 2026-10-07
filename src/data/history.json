@@ -2331,5 +2331,33 @@
     "id": 1518150,
     "title": "Mazda CX-3 2.0A Deluxe",
     "price": 46880
+  },
+  {
+    "date": "2026-10-07",
+    "type": "sold",
+    "id": 1529737,
+    "title": "Renault Scenic Diesel 1.5A dCi Sunroof",
+    "price": 25500
+  },
+  {
+    "date": "2026-10-07",
+    "type": "sold",
+    "id": 1531910,
+    "title": "Mercedes-Benz C-Class C200 Exclusive",
+    "price": 45500
+  },
+  {
+    "date": "2026-10-07",
+    "type": "sold",
+    "id": 1529345,
+    "title": "Mercedes-Benz GLA-Class GLA180 Urban Edition",
+    "price": 56800
+  },
+  {
+    "date": "2026-10-07",
+    "type": "sold",
+    "id": 1533393,
+    "title": "Mercedes-Benz C-Class C43 AMG 4MATIC",
+    "price": 97800
   }
 ]
