@@ -2359,5 +2359,12 @@
     "id": 1533393,
     "title": "Mercedes-Benz C-Class C43 AMG 4MATIC",
     "price": 97800
+  },
+  {
+    "date": "2026-10-08",
+    "type": "sold",
+    "id": 1539097,
+    "title": "Honda Jazz 1.3A",
+    "price": 33800
   }
 ]
