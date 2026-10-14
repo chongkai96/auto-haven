@@ -2454,5 +2454,12 @@
     "title": "Mercedes-Benz A-Class Saloon A200 Progressive",
     "from": 79888,
     "to": 77888
+  },
+  {
+    "date": "2026-10-14",
+    "type": "new",
+    "id": 1543364,
+    "title": "Mercedes-Benz C-Class C180 Avantgarde",
+    "price": 118800
   }
 ]
