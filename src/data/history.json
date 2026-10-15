@@ -2461,5 +2461,33 @@
     "id": 1543364,
     "title": "Mercedes-Benz C-Class C180 Avantgarde",
     "price": 118800
+  },
+  {
+    "date": "2026-10-15",
+    "type": "new",
+    "id": 1543631,
+    "title": "Mercedes-Benz GLC-Class GLC43 AMG 4MATIC",
+    "price": 79800
+  },
+  {
+    "date": "2026-10-15",
+    "type": "new",
+    "id": 1543831,
+    "title": "Toyota Mark X 2.5A (COE till 06/2028)",
+    "price": 19888
+  },
+  {
+    "date": "2026-10-15",
+    "type": "new",
+    "id": 1543658,
+    "title": "Mercedes-Benz B-Class B200 Progressive",
+    "price": 73800
+  },
+  {
+    "date": "2026-10-15",
+    "type": "sold",
+    "id": 1533193,
+    "title": "Jeep Renegade 1.4A Turbo Limited",
+    "price": 28800
   }
 ]
