@@ -2489,5 +2489,43 @@
     "id": 1533193,
     "title": "Jeep Renegade 1.4A Turbo Limited",
     "price": 28800
+  },
+  {
+    "date": "2026-10-17",
+    "type": "new",
+    "id": 1544015,
+    "title": "Mercedes-Benz C-Class C180K (COE till 08/2028)",
+    "price": 21800
+  },
+  {
+    "date": "2026-10-17",
+    "type": "price_change",
+    "id": 1530064,
+    "title": "Mercedes-Benz GLB-Class GLB180 Progressive 7-Seater",
+    "from": 169800,
+    "to": 166800
+  },
+  {
+    "date": "2026-10-17",
+    "type": "price_change",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "from": 58000,
+    "to": 57000
+  },
+  {
+    "date": "2026-10-17",
+    "type": "price_change",
+    "id": 1522382,
+    "title": "Volvo S90 T5 Momentum",
+    "from": 68800,
+    "to": 67800
+  },
+  {
+    "date": "2026-10-17",
+    "type": "sold",
+    "id": 1533352,
+    "title": "Kia Sorento Diesel 2.2A CRDi GT Line Sunroof",
+    "price": 64500
   }
 ]
