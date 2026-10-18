@@ -2527,5 +2527,19 @@
     "id": 1533352,
     "title": "Kia Sorento Diesel 2.2A CRDi GT Line Sunroof",
     "price": 64500
+  },
+  {
+    "date": "2026-10-18",
+    "type": "new",
+    "id": 1544643,
+    "title": "Subaru Forester 2.0i-L Sunroof",
+    "price": 31500
+  },
+  {
+    "date": "2026-10-18",
+    "type": "sold",
+    "id": 1535613,
+    "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
+    "price": 48500
   }
 ]
