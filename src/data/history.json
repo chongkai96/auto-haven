@@ -2541,5 +2541,20 @@
     "id": 1535613,
     "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
     "price": 48500
+  },
+  {
+    "date": "2026-10-20",
+    "type": "new",
+    "id": 1544868,
+    "title": "Mitsubishi Eclipse Cross 1.5A Sunroof",
+    "price": 40800
+  },
+  {
+    "date": "2026-10-20",
+    "type": "price_change",
+    "id": 1522382,
+    "title": "Volvo S90 T5 Momentum",
+    "from": 67800,
+    "to": 65000
   }
 ]
