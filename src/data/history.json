@@ -2580,5 +2580,19 @@
     "title": "Mercedes-Benz B-Class B200 Progressive",
     "from": 73800,
     "to": 72800
+  },
+  {
+    "date": "2026-10-22",
+    "type": "sold",
+    "id": 1536760,
+    "title": "Infiniti QX50 2.0A Essential",
+    "price": 62800
+  },
+  {
+    "date": "2026-10-22",
+    "type": "sold",
+    "id": 1542847,
+    "title": "Opel Mokka 1.2A Turbo GS",
+    "price": 82800
   }
 ]
