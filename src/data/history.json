@@ -2594,5 +2594,27 @@
     "id": 1542847,
     "title": "Opel Mokka 1.2A Turbo GS",
     "price": 82800
+  },
+  {
+    "date": "2026-10-23",
+    "type": "price_change",
+    "id": 1520374,
+    "title": "Mercedes-Benz A-Class A180 Style",
+    "from": 34800,
+    "to": 33500
+  },
+  {
+    "date": "2026-10-23",
+    "type": "sold",
+    "id": 1522382,
+    "title": "Volvo S90 T5 Momentum",
+    "price": 65000
+  },
+  {
+    "date": "2026-10-23",
+    "type": "sold",
+    "id": 1542852,
+    "title": "Skoda Karoq 1.5A TSI Style",
+    "price": 79500
   }
 ]
