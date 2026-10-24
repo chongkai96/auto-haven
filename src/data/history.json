@@ -2616,5 +2616,19 @@
     "id": 1542852,
     "title": "Skoda Karoq 1.5A TSI Style",
     "price": 79500
+  },
+  {
+    "date": "2026-10-24",
+    "type": "sold",
+    "id": 1542313,
+    "title": "Chevrolet Orlando 1.4A",
+    "price": 14800
+  },
+  {
+    "date": "2026-10-24",
+    "type": "sold",
+    "id": 1543631,
+    "title": "Mercedes-Benz GLC-Class GLC43 AMG 4MATIC",
+    "price": 78800
   }
 ]
