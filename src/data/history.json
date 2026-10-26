@@ -2630,5 +2630,12 @@
     "id": 1543631,
     "title": "Mercedes-Benz GLC-Class GLC43 AMG 4MATIC",
     "price": 78800
+  },
+  {
+    "date": "2026-10-26",
+    "type": "new",
+    "id": 1546379,
+    "title": "Volkswagen Scirocco 2.0A TSI Sunroof (COE till 04/2030)",
+    "price": 39888
   }
 ]
