@@ -2637,5 +2637,12 @@
     "id": 1546379,
     "title": "Volkswagen Scirocco 2.0A TSI Sunroof (COE till 04/2030)",
     "price": 39888
+  },
+  {
+    "date": "2026-10-27",
+    "type": "new",
+    "id": 1546470,
+    "title": "Mitsubishi Eclipse Cross 1.5A Sunroof",
+    "price": 40800
   }
 ]
