@@ -2644,5 +2644,19 @@
     "id": 1546470,
     "title": "Mitsubishi Eclipse Cross 1.5A Sunroof",
     "price": 40800
+  },
+  {
+    "date": "2026-10-28",
+    "type": "new",
+    "id": 1546933,
+    "title": "SEAT Ibiza 1.0A EcoTSI DSG Style",
+    "price": 43800
+  },
+  {
+    "date": "2026-10-28",
+    "type": "sold",
+    "id": 1543831,
+    "title": "Toyota Mark X 2.5A (COE till 06/2028)",
+    "price": 19888
   }
 ]
