@@ -2658,5 +2658,12 @@
     "id": 1543831,
     "title": "Toyota Mark X 2.5A (COE till 06/2028)",
     "price": 19888
+  },
+  {
+    "date": "2026-10-30",
+    "type": "sold",
+    "id": 1542930,
+    "title": "BMW 3 Series 318i",
+    "price": 52800
   }
 ]
