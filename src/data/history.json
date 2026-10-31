@@ -2665,5 +2665,77 @@
     "id": 1542930,
     "title": "BMW 3 Series 318i",
     "price": 52800
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1536033,
+    "title": "Volkswagen Touran 1.4A TSI Comfortline Panoramic Roof",
+    "from": 49800,
+    "to": 47800
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 124500,
+    "to": 120500
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1543658,
+    "title": "Mercedes-Benz B-Class B200 Progressive",
+    "from": 72800,
+    "to": 71800
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1540680,
+    "title": "MINI Cooper S Cabriolet 2.0A",
+    "from": 67500,
+    "to": 65500
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1538790,
+    "title": "Honda Civic 1.6A VTi",
+    "from": 42800,
+    "to": 41800
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1542154,
+    "title": "DS 7 Crossback 1.6A Grand Chic 180PS Sunroof",
+    "from": 115800,
+    "to": 113800
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1523140,
+    "title": "Mercedes-Benz A-Class Saloon A200 Progressive",
+    "from": 77888,
+    "to": 76500
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 99500,
+    "to": 98500
+  },
+  {
+    "date": "2026-10-31",
+    "type": "price_change",
+    "id": 1544643,
+    "title": "Subaru Forester 2.0i-L Sunroof",
+    "from": 31500,
+    "to": 30500
   }
 ]
