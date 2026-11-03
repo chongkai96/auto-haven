@@ -2737,5 +2737,12 @@
     "title": "Subaru Forester 2.0i-L Sunroof",
     "from": 31500,
     "to": 30500
+  },
+  {
+    "date": "2026-11-03",
+    "type": "sold",
+    "id": 1508059,
+    "title": "Lexus IS Turbo IS300 Executive",
+    "price": 57000
   }
 ]
