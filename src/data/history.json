@@ -2744,5 +2744,27 @@
     "id": 1508059,
     "title": "Lexus IS Turbo IS300 Executive",
     "price": 57000
+  },
+  {
+    "date": "2026-11-04",
+    "type": "new",
+    "id": 1548730,
+    "title": "BMW X2 sDrive18i M-Sport",
+    "price": 59800
+  },
+  {
+    "date": "2026-11-04",
+    "type": "new",
+    "id": 1548575,
+    "title": "Mercedes-Benz A-Class A200 Progressive",
+    "price": 58800
+  },
+  {
+    "date": "2026-11-04",
+    "type": "price_change",
+    "id": 1546379,
+    "title": "Volkswagen Scirocco 2.0A TSI Sunroof (COE till 04/2030)",
+    "from": 39888,
+    "to": 38888
   }
 ]
