@@ -2766,5 +2766,83 @@
     "title": "Volkswagen Scirocco 2.0A TSI Sunroof (COE till 04/2030)",
     "from": 39888,
     "to": 38888
+  },
+  {
+    "date": "2026-11-05",
+    "type": "new",
+    "id": 1549013,
+    "title": "Opel Astra 1.0A Turbo IntelliLux LED",
+    "price": 23800
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1544015,
+    "title": "Mercedes-Benz C-Class C180K (COE till 08/2028)",
+    "from": 21800,
+    "to": 20800
+  },
+  {
+    "date": "2026-11-05",
+    "type": "new",
+    "id": 1549014,
+    "title": "Mercedes-Benz E-Class E200 Avantgarde",
+    "price": 81800
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1544643,
+    "title": "Subaru Forester 2.0i-L Sunroof",
+    "from": 30500,
+    "to": 29500
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1526108,
+    "title": "BMW 2 Series 218i Gran Coupe M-Sport",
+    "from": 105500,
+    "to": 104500
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1530064,
+    "title": "Mercedes-Benz GLB-Class GLB180 Progressive 7-Seater",
+    "from": 166800,
+    "to": 165800
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1533410,
+    "title": "Volkswagen Tiguan 1.4A TSI Highline Panoramic Roof",
+    "from": 58500,
+    "to": 57500
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1536033,
+    "title": "Volkswagen Touran 1.4A TSI Comfortline Panoramic Roof",
+    "from": 47800,
+    "to": 46500
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 120500,
+    "to": 119500
+  },
+  {
+    "date": "2026-11-05",
+    "type": "price_change",
+    "id": 1546933,
+    "title": "SEAT Ibiza 1.0A EcoTSI DSG Style",
+    "from": 43800,
+    "to": 40800
   }
 ]
