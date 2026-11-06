@@ -2844,5 +2844,41 @@
     "title": "SEAT Ibiza 1.0A EcoTSI DSG Style",
     "from": 43800,
     "to": 40800
+  },
+  {
+    "date": "2026-11-06",
+    "type": "new",
+    "id": 1549331,
+    "title": "Mercedes-Benz C-Class C180 CGI (COE till 07/2032)",
+    "price": 68800
+  },
+  {
+    "date": "2026-11-06",
+    "type": "new",
+    "id": 1549328,
+    "title": "BMW X2 sDrive20i M-Sport X",
+    "price": 64800
+  },
+  {
+    "date": "2026-11-06",
+    "type": "new",
+    "id": 1549327,
+    "title": "BMW 7 Series 740Li Sunroof",
+    "price": 123800
+  },
+  {
+    "date": "2026-11-06",
+    "type": "new",
+    "id": 1549205,
+    "title": "BMW 3 Series 318i",
+    "price": 42800
+  },
+  {
+    "date": "2026-11-06",
+    "type": "price_change",
+    "id": 1548730,
+    "title": "BMW X2 sDrive18i M-Sport",
+    "from": 59800,
+    "to": 99800
   }
 ]
