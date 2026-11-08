@@ -2911,5 +2911,19 @@
     "title": "BMW X2 sDrive18i M-Sport",
     "from": 99800,
     "to": 59800
+  },
+  {
+    "date": "2026-11-08",
+    "type": "new",
+    "id": 1535613,
+    "title": "Mercedes-Benz CLA-Class CLA180 AMG Line",
+    "price": 46000
+  },
+  {
+    "date": "2026-11-08",
+    "type": "new",
+    "id": 1549713,
+    "title": "Kia Stinger 2.0A Sunroof",
+    "price": 53800
   }
 ]
