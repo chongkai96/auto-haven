@@ -2925,5 +2925,21 @@
     "id": 1549713,
     "title": "Kia Stinger 2.0A Sunroof",
     "price": 53800
+  },
+  {
+    "date": "2026-11-11",
+    "type": "price_change",
+    "id": 1549013,
+    "title": "Opel Astra 1.0A Turbo IntelliLux LED",
+    "from": 23800,
+    "to": 22800
+  },
+  {
+    "date": "2026-11-11",
+    "type": "price_change",
+    "id": 1540680,
+    "title": "MINI Cooper S Cabriolet 2.0A",
+    "from": 65500,
+    "to": 64500
   }
 ]
