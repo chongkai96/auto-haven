@@ -2941,5 +2941,41 @@
     "title": "MINI Cooper S Cabriolet 2.0A",
     "from": 65500,
     "to": 64500
+  },
+  {
+    "date": "2026-11-12",
+    "type": "new",
+    "id": 1550942,
+    "title": "Lexus GS350 Luxury (COE till 04/2032)",
+    "price": 72800
+  },
+  {
+    "date": "2026-11-12",
+    "type": "price_change",
+    "id": 1543364,
+    "title": "Mercedes-Benz C-Class C180 Avantgarde",
+    "from": 118800,
+    "to": 116800
+  },
+  {
+    "date": "2026-11-12",
+    "type": "new",
+    "id": 1550844,
+    "title": "Mercedes-Benz C-Class C180 Avantgarde",
+    "price": 75800
+  },
+  {
+    "date": "2026-11-12",
+    "type": "new",
+    "id": 1550602,
+    "title": "Audi A3 Sedan 1.0A TFSI S-tronic",
+    "price": 51800
+  },
+  {
+    "date": "2026-11-12",
+    "type": "sold",
+    "id": 1548730,
+    "title": "BMW X2 sDrive18i M-Sport",
+    "price": 59800
   }
 ]
