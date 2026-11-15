@@ -2999,5 +2999,13 @@
     "id": 1536033,
     "title": "Volkswagen Touran 1.4A TSI Comfortline Panoramic Roof",
     "price": 46500
+  },
+  {
+    "date": "2026-11-15",
+    "type": "price_change",
+    "id": 1549327,
+    "title": "BMW 7 Series 740Li Sunroof",
+    "from": 123800,
+    "to": 118800
   }
 ]
