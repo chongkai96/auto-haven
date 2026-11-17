@@ -3014,5 +3014,19 @@
     "id": 1551689,
     "title": "Audi S3 2.0M TFSI Quattro (COE till 10/2027)",
     "price": 16888
+  },
+  {
+    "date": "2026-11-17",
+    "type": "new",
+    "id": 1551805,
+    "title": "Mercedes-Benz GLA-Class GLA200 Progressive",
+    "price": 108800
+  },
+  {
+    "date": "2026-11-17",
+    "type": "sold",
+    "id": 1544015,
+    "title": "Mercedes-Benz C-Class C180K (COE till 08/2028)",
+    "price": 20800
   }
 ]
