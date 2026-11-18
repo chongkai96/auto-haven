@@ -3028,5 +3028,27 @@
     "id": 1544015,
     "title": "Mercedes-Benz C-Class C180K (COE till 08/2028)",
     "price": 20800
+  },
+  {
+    "date": "2026-11-18",
+    "type": "price_change",
+    "id": 1551689,
+    "title": "Audi S3 2.0M TFSI Quattro (COE till 10/2027)",
+    "from": 16888,
+    "to": 16588
+  },
+  {
+    "date": "2026-11-18",
+    "type": "sold",
+    "id": 1549713,
+    "title": "Kia Stinger 2.0A Sunroof",
+    "price": 53800
+  },
+  {
+    "date": "2026-11-18",
+    "type": "sold",
+    "id": 1518443,
+    "title": "Honda Civic Type-R 2.0M VTEC Turbo GT",
+    "price": 183500
   }
 ]
