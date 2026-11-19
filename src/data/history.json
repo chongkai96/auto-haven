@@ -3050,5 +3050,106 @@
     "id": 1518443,
     "title": "Honda Civic Type-R 2.0M VTEC Turbo GT",
     "price": 183500
+  },
+  {
+    "date": "2026-11-19",
+    "type": "new",
+    "id": 1552765,
+    "title": "Mercedes-Benz A-Class A200 AMG Line",
+    "price": 58800
+  },
+  {
+    "date": "2026-11-19",
+    "type": "new",
+    "id": 1552626,
+    "title": "Audi Q5 2.0A TFSI Quattro S-tronic Sport Panoramic Roof",
+    "price": 95800
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1548575,
+    "title": "Mercedes-Benz A-Class A200 Progressive",
+    "from": 58800,
+    "to": 59800
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1549328,
+    "title": "BMW X2 sDrive20i M-Sport X",
+    "from": 64800,
+    "to": 62800
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1543658,
+    "title": "Mercedes-Benz B-Class B200 Progressive",
+    "from": 71800,
+    "to": 70500
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1546470,
+    "title": "Mitsubishi Eclipse Cross 1.5A Sunroof",
+    "from": 40800,
+    "to": 38800
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1542154,
+    "title": "DS 7 Crossback 1.6A Grand Chic 180PS Sunroof",
+    "from": 113800,
+    "to": 111800
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1492547,
+    "title": "Audi A5 Sportback Mild Hybrid 2.0A TFSI S-tronic",
+    "from": 119500,
+    "to": 118500
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1546379,
+    "title": "Volkswagen Scirocco 2.0A TSI Sunroof (COE till 04/2030)",
+    "from": 38888,
+    "to": 36888
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1544868,
+    "title": "Mitsubishi Eclipse Cross 1.5A Sunroof",
+    "from": 40800,
+    "to": 39500
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1526108,
+    "title": "BMW 2 Series 218i Gran Coupe M-Sport",
+    "from": 104500,
+    "to": 102500
+  },
+  {
+    "date": "2026-11-19",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 98500,
+    "to": 97000
+  },
+  {
+    "date": "2026-11-19",
+    "type": "sold",
+    "id": 1550942,
+    "title": "Lexus GS350 Luxury (COE till 04/2032)",
+    "price": 100000
   }
 ]
