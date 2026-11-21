@@ -3151,5 +3151,21 @@
     "id": 1550942,
     "title": "Lexus GS350 Luxury (COE till 04/2032)",
     "price": 100000
+  },
+  {
+    "date": "2026-11-21",
+    "type": "price_change",
+    "id": 1520374,
+    "title": "Mercedes-Benz A-Class A180 Style",
+    "from": 33500,
+    "to": 50800
+  },
+  {
+    "date": "2026-11-21",
+    "type": "price_change",
+    "id": 1551689,
+    "title": "Audi S3 2.0M TFSI Quattro (COE till 10/2027)",
+    "from": 16588,
+    "to": 15888
   }
 ]
