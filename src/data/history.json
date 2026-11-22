@@ -3167,5 +3167,19 @@
     "title": "Audi S3 2.0M TFSI Quattro (COE till 10/2027)",
     "from": 16588,
     "to": 15888
+  },
+  {
+    "date": "2026-11-22",
+    "type": "new",
+    "id": 1553385,
+    "title": "Honda Civic 1.5A VTEC Turbo",
+    "price": 136800
+  },
+  {
+    "date": "2026-11-22",
+    "type": "new",
+    "id": 1553230,
+    "title": "Mercedes-Benz GLB-Class GLB180 Progressive",
+    "price": 141800
   }
 ]
