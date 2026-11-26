@@ -3219,5 +3219,19 @@
     "id": 1553230,
     "title": "Mercedes-Benz GLB-Class GLB180 Progressive",
     "price": 141800
+  },
+  {
+    "date": "2026-11-26",
+    "type": "new",
+    "id": 1554150,
+    "title": "Mercedes-Benz E-Class E250 AMG Line Sunroof",
+    "price": 80500
+  },
+  {
+    "date": "2026-11-26",
+    "type": "sold",
+    "id": 1526108,
+    "title": "BMW 2 Series 218i Gran Coupe M-Sport",
+    "price": 102500
   }
 ]
