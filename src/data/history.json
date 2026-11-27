@@ -3233,5 +3233,20 @@
     "id": 1526108,
     "title": "BMW 2 Series 218i Gran Coupe M-Sport",
     "price": 102500
+  },
+  {
+    "date": "2026-11-27",
+    "type": "price_change",
+    "id": 1515196,
+    "title": "BMW 1 Series 116i Luxury",
+    "from": 97000,
+    "to": 96000
+  },
+  {
+    "date": "2026-11-27",
+    "type": "sold",
+    "id": 1520374,
+    "title": "Mercedes-Benz A-Class A180 Style",
+    "price": 33800
   }
 ]
