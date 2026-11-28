@@ -3248,5 +3248,34 @@
     "id": 1520374,
     "title": "Mercedes-Benz A-Class A180 Style",
     "price": 33800
+  },
+  {
+    "date": "2026-11-28",
+    "type": "new",
+    "id": 1554724,
+    "title": "Skoda Kodiaq 2.0A TSI 7-Seater Sunroof",
+    "price": 53800
+  },
+  {
+    "date": "2026-11-28",
+    "type": "price_change",
+    "id": 1551689,
+    "title": "Audi S3 2.0M TFSI Quattro (COE till 10/2027)",
+    "from": 15588,
+    "to": 15288
+  },
+  {
+    "date": "2026-11-28",
+    "type": "sold",
+    "id": 1544643,
+    "title": "Subaru Forester 2.0i-L Sunroof",
+    "price": 29500
+  },
+  {
+    "date": "2026-11-28",
+    "type": "sold",
+    "id": 1549528,
+    "title": "Volkswagen New Beetle 1.6A (COE till 03/2030)",
+    "price": 34800
   }
 ]
